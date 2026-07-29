@@ -12,6 +12,7 @@
     z-index: 9998;
 }
 .biggest-paint {
+    height: 80%;
     position: fixed;
     top: 50%;
     left: 50%;
