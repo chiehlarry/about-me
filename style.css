@@ -11,6 +11,13 @@
     transform: translate(-50%, -40%);
     z-index: 4999;
 }
+.me-start {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 4999;
+}
 .paint {
     position: fixed;
     top: 50%;
