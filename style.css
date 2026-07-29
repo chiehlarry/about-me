@@ -26,8 +26,9 @@
     z-index: 4998;
 }
 .biggest-paint {
+    height:80%;/* 確認大小是否符合 */
     position: absolute;
-    transform: translate(-50%, -60%);/* 待確認是否已調整 */
+    transform: translate(-50%, -60%);
 }
 .paint-01 {
     position: absolute;
