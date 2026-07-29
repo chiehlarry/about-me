@@ -12,11 +12,10 @@
     z-index: 4999;
 }
 .biggest-paint {
-    height: 80%;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     z-index: 4998;
 }
 .background-text {
