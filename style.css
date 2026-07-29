@@ -20,7 +20,7 @@
 }
 .biggest-paint {
     position: absolute;
-    transform: translate(0, -10%);/* 待確認是否已調整 */
+    transform: translate(-50%, -60%);/* 待確認是否已調整 */
 }
 .paint-01 {
     position: absolute;
