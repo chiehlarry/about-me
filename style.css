@@ -26,7 +26,6 @@
     z-index: 4998;
 }
 .biggest-paint {
-    height:80%;/* 確認大小是否符合 */
     position: absolute;
     transform: translate(-50%, -60%);
 }
