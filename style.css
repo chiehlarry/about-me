@@ -4,3 +4,10 @@
     right: 20px;  /* 距離畫面右側 20px */
     z-index: 9999; /* 確保顯示在其他元素上方 */
 }
+.me-happy {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
