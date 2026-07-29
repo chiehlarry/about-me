@@ -1,1 +1,163 @@
+/* 基本重設 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+/* 整個首屏區域 */
+.hero {
+  width: 100%;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+/*
+  這是最重要的部分：
+  所有絕對定位都以這個畫布為基準。
+*/
+.hero-canvas {
+  position: relative;
+
+  width: min(100vw, calc(100svh * 1440 / 936));
+  aspect-ratio: 1440 / 936;
+
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 所有圖片不攔截滑鼠事件 */
+.hero-shape,
+.hero-person {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* 主背景圖形 */
+.hero-shape--main {
+  left: -2%;
+  top: -1%;
+  width: 104%;
+  height: auto;
+}
+
+/* 右上圖形 */
+.hero-shape--top-right {
+  right: -1%;
+  top: 3%;
+  width: 29%;
+}
+
+/* 右下圖形 */
+.hero-shape--bottom-right {
+  right: -3%;
+  bottom: -5%;
+  width: 34%;
+}
+
+/* 人物 */
+.hero-person {
+  z-index: 3;
+
+  left: 42.5%;
+  bottom: -1%;
+
+  width: 24%;
+
+  /*
+    left 指的是元素左側的位置。
+    translateX 可以用來以人物中心為基準調整。
+  */
+  transform: translateX(-50%);
+}
+
+/* 姓名文字群組 */
+.hero-name {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+
+  color: #fff;
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  line-height: 0.8;
+  letter-spacing: -0.06em;
+  white-space: nowrap;
+}
+
+.hero-name span {
+  position: absolute;
+  display: block;
+}
+
+/* 左上 LAI */
+.hero-name__first {
+  left: 14.5%;
+  top: 33%;
+  font-size: clamp(4rem, 13vw, 12rem);
+  transform: rotate(-4deg);
+}
+
+/* 左下 CHIEH */
+.hero-name__middle {
+  left: 5%;
+  top: 57%;
+  font-size: clamp(4rem, 12vw, 11rem);
+  transform: rotate(-3deg);
+}
+
+/* 右側 LU */
+.hero-name__last {
+  right: 8%;
+  top: 40%;
+  font-size: clamp(4rem, 13vw, 12rem);
+  transform: rotate(-4deg);
+}
+
+/* 漢堡選單 */
+.menu-button {
+  position: absolute;
+  z-index: 10;
+
+  top: 5%;
+  right: 3%;
+
+  width: clamp(32px, 3vw, 44px);
+  aspect-ratio: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+
+  border: 0;
+  padding: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menu-button span {
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: #e6bd3d;
+}
