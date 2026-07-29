@@ -19,12 +19,13 @@
     z-index: 4998;
 }
 .biggest-paint {
+    position: absolute;
     transform: translate(0, -10%);
 }
 .paint-01 {
     position: absolute;
-    top:20%;
-    left:40%;
+    top:100px;
+    left:400px;
 }
 .background-text {
   position: fixed;
