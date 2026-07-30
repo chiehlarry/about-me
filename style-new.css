@@ -15,7 +15,7 @@
 .canvas {
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #fff;/* 移除了實際尺寸內容 */
 }
 
 /* 所有圖片不攔截滑鼠事件 */
