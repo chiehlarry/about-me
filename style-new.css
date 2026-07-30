@@ -135,23 +135,9 @@ button {
 
 /* 漢堡選單 */
 .menu {
-  position: absolute;
-  z-index: 10;
-
-  top: 5%;
-  right: 3%;
-
-  width: clamp(32px, 3vw, 44px);
-  aspect-ratio: 1;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 7px;
-
-  border: 0;
-  padding: 5px;
-  background: transparent;
-  cursor: pointer;
+    position: fixed;
+    top: 20px;    /* 距離畫面頂端 20px */
+    right: 20px;  /* 距離畫面右側 20px */
+    z-index: 9999; /* 確保顯示在其他元素上方 */
 }
 
