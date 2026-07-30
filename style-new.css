@@ -75,7 +75,7 @@ button {
 }
 
 /* 人物 */
-.hero-person {
+.me-happy {
   z-index: 3;
 
   left: 50%;
@@ -91,7 +91,7 @@ button {
 }
 
 /* 姓名文字群組 */
-.hero-name {
+.background-text {
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -104,13 +104,13 @@ button {
   white-space: nowrap;
 }
 
-.hero-name span {
+.background span {
   position: absolute;
   display: block;
 }
 
 /* 左上 LAI */
-.hero-name__first {
+.lu {
   left: 14.5%;
   top: 33%;
   font-size: clamp(4rem, 13vw, 12rem);
@@ -118,7 +118,7 @@ button {
 }
 
 /* 左下 CHIEH */
-.hero-name__middle {
+.lai {
   left: 5%;
   top: 57%;
   font-size: clamp(4rem, 12vw, 11rem);
@@ -126,7 +126,7 @@ button {
 }
 
 /* 右側 LU */
-.hero-name__last {
+.chieh {
   right: 8%;
   top: 40%;
   font-size: clamp(4rem, 13vw, 12rem);
@@ -134,7 +134,7 @@ button {
 }
 
 /* 漢堡選單 */
-.menu-button {
+.menu {
   position: absolute;
   z-index: 10;
 
@@ -155,9 +155,3 @@ button {
   cursor: pointer;
 }
 
-.menu-button span {
-  width: 100%;
-  height: 4px;
-  border-radius: 999px;
-  background: #e6bd3d;
-}
