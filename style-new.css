@@ -1,25 +1,3 @@
-/* 基本重設 */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-button {
-  font: inherit;
-}
-
 /* 整個首屏區域 */
 .hero {
   width: 100%;
@@ -36,10 +14,6 @@ button {
 */
 .canvas {
   position: relative;
-
-  width: min(100vw, calc(100svh * 1440 / 936));
-  aspect-ratio: 1440 / 936;
-
   overflow: hidden;
   background: #fff;
 }
