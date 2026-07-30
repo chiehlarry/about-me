@@ -95,16 +95,9 @@ button {
   position: absolute;
   inset: 0;
   z-index: 2;
-
-  color: #fff;
-  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
-  line-height: 0.8;
-  letter-spacing: -0.06em;
-  white-space: nowrap;
 }
 
-.background span {
+.background-text span {
   position: absolute;
   display: block;
 }
