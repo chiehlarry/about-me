@@ -110,27 +110,21 @@ button {
 }
 
 /* 左上 LAI */
-.lu {
+.lai {
   left: 14.5%;
   top: 33%;
-  font-size: clamp(4rem, 13vw, 12rem);
-  transform: rotate(-4deg);
 }
 
 /* 左下 CHIEH */
-.lai {
+.chieh {
   left: 5%;
   top: 57%;
-  font-size: clamp(4rem, 12vw, 11rem);
-  transform: rotate(-3deg);
 }
 
 /* 右側 LU */
-.chieh {
+.lu {
   right: 8%;
   top: 40%;
-  font-size: clamp(4rem, 13vw, 12rem);
-  transform: rotate(-4deg);
 }
 
 /* 漢堡選單 */
