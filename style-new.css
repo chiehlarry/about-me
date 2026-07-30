@@ -34,7 +34,7 @@ button {
   這是最重要的部分：
   所有絕對定位都以這個畫布為基準。
 */
-.hero-canvas {
+.canvas {
   position: relative;
 
   width: min(100vw, calc(100svh * 1440 / 936));
@@ -45,15 +45,15 @@ button {
 }
 
 /* 所有圖片不攔截滑鼠事件 */
-.hero-shape,
-.hero-person {
+.paint,
+.me-happy {
   position: absolute;
   pointer-events: none;
   user-select: none;
 }
 
 /* 主背景圖形 */
-.hero-shape--main {
+.biggest-paint {
   left: -2%;
   top: -1%;
   width: 104%;
