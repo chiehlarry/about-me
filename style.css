@@ -45,8 +45,27 @@
 .paint-01 {
     position: absolute;
     top:577.12px;
-    left:982.38px;/* 待確認是否已調整 */
+    left:982.38px;
 }
+
+.paint-02 {
+    position: absolute;
+    top:68.65px;
+    left:1140.27px;
+}
+
+.paint-03 {
+    position: absolute;
+    top:27.51px;
+    left:1055.99px;
+}
+
+.paint-04 {
+    position: absolute;
+    top:201px;
+    left:-161px;
+}
+
 .background-text {
   position: fixed;
     z-index: 5000; 
