@@ -8,3 +8,10 @@ function scaleCanvas() {
 }
 window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
+
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        document.querySelector('.paint').classList.add('fade-out');
+        document.querySelector('.background-text').classList.add('fade-out');
+    }, 2000); // 2000 = 頁面載入後等 2 秒才開始淡出，可自行調整
+});
