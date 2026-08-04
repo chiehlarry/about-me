@@ -36,5 +36,39 @@
 }
 .background-text {
   position: fixed;
-    z-index: 5000;   
+    z-index: 5000; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.background-text span {
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 255px;
+    white-space: nowrap; /* 避免文字自己換行 */
+}
+
+.lai {
+    top: 60px;    /* ← 換成 Figma Inspect 給的實際 y */
+    left: 180px;  /* ← 換成 Figma Inspect 給的實際 x */
+    transform: rotate(-5deg);
+    transform-origin: top left;
+}
+
+.chieh {
+    top: 400px;   /* ← 換成 Figma Inspect 給的實際 y */
+    left: 60px;   /* ← 換成 Figma Inspect 給的實際 x */
+    transform: rotate(-5deg);
+    transform-origin: top left;
+}
+
+.lu {
+    top: 60px;    /* ← 換成 Figma Inspect 給的實際 y */
+    left: 1020px; /* ← 換成 Figma Inspect 給的實際 x */
+    transform: rotate(-5deg);
+    transform-origin: top left;
 }
