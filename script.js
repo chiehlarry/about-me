@@ -1,10 +1,12 @@
 function scaleCanvas() {
-  const canvas = document.querySelector('.canvas');
-  const scale = Math.min(
-    window.innerWidth / 1512,
-    window.innerHeight / 982
-  );
-  canvas.style.transform = `translate(-50%, -50%) scale(${scale})`;
+    const canvas = document.querySelector('.canvas');
+    const scale = Math.min(
+        window.innerWidth / 1512,
+        window.innerHeight / 982
+    );
+    const offsetX = (window.innerWidth - 1512 * scale) / 2;
+    const offsetY = (window.innerHeight - 982 * scale) / 2;
+    canvas.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
 }
 window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
