@@ -4,7 +4,7 @@ function scaleCanvas() {
     window.innerWidth / 1512,
     window.innerHeight / 982
   );
-  canvas.style.transform = `scale(${scale})`;
+  canvas.style.transform = `scale(${scale})　translate(-50%, -50%)`;
 }
 window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
