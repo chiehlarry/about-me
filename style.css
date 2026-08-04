@@ -3,7 +3,7 @@
     top: 50%;
     left: 50%;
     width: 1512px;   /* Figma 畫布原始寬 */
-    height: 904px;   /* Figma 畫布原始高 */
+    height: 982px;   /* Figma 畫布原始高 */
     transform-origin: center center;
     /* transform 交給 JS 動態設定 scale + translate,這裡不用先寫死 */
 }
