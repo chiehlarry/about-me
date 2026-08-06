@@ -39,30 +39,30 @@
 .biggest-paint {
     position: absolute;
     top: -42px;      /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 y */
-    left: -58.19px;     /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 x */
+    left: 207px;     /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 x */
 }
 .paint-01 {
     position: absolute;
-    top:577.12px;
-    left:982.38px;
+    top:503px;
+    left:1272px;
 }
 
 .paint-02 {
     position: absolute;
     top:68.65px;
-    left:1140.27px;
+    left:1446.27px;
 }
 
 .paint-03 {
     position: absolute;
     top:27.51px;
-    left:1055.99px;
+    left:1310.99px;
 }
 
 .paint-04 {
     position: absolute;
     top:201px;
-    left:-161px;
+    left:0px;
 }
 
 .background-text {
@@ -85,21 +85,21 @@
 
 .lai {
     top: 181px;    /* ← 換成 Figma Inspect 給的實際 y */
-    left: 211px;  /* ← 換成 Figma Inspect 給的實際 x */
+    left: 443px;  /* ← 換成 Figma Inspect 給的實際 x */
     transform: rotate(-5deg);
     transform-origin: top left;
 }
 
 .chieh {
     top: 428px;   /* ← 換成 Figma Inspect 給的實際 y */
-    left: 82px;   /* ← 換成 Figma Inspect 給的實際 x */
+    left: 263px;   /* ← 換成 Figma Inspect 給的實際 x */
     transform: rotate(-5deg);
     transform-origin: top left;
 }
 
 .lu {
     top: 268px;    /* ← 換成 Figma Inspect 給的實際 y */
-    left: 1037px; /* ← 換成 Figma Inspect 給的實際 x */
+    left: 1292px; /* ← 換成 Figma Inspect 給的實際 x */
     transform: rotate(-5deg);
     transform-origin: top left;
 }
