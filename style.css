@@ -30,38 +30,38 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 1512px;   /* 你 Figma 畫布的寬 */
-    height: 982px;   /* 你 Figma 畫布的高 */
+    width: 1920px;   /* 你 Figma 畫布的寬 */
+    height: 1080px;   /* 你 Figma 畫布的高 */
     transform: translate(-50%, -50%);
     z-index: 4998;
 }
 
 .biggest-paint {
     position: absolute;
-    top: -42px;      /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 y */
+    top: 21px;      /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 y */
     left: 207px;     /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 x */
 }
 .paint-01 {
     position: absolute;
-    top:603px;
+    top:666px;
     left:1272px;
 }
 
 .paint-02 {
     position: absolute;
-    top:68.65px;
+    top:131.65px;
     left:1446.27px;
 }
 
 .paint-03 {
     position: absolute;
-    top:27.51px;
+    top:90.51px;
     left:1310.99px;
 }
 
 .paint-04 {
     position: absolute;
-    top:201px;
+    top:264px;
     left:0px;
 }
 
