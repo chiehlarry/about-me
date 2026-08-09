@@ -13,7 +13,8 @@ scaleCanvas();
 
 window.addEventListener('load', () => {
     setTimeout(() => {
-        document.querySelector('.paint').classList.add('fade-out');
+        const paint = document.querySelector('.paint');
+        paint.classList.add('fade-out');
         document.querySelector('.background-text').classList.add('fade-out');
 
         paint.addEventListener('transitionend', () => {
