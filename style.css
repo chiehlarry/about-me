@@ -198,7 +198,7 @@
 .menu-background,
 .menu-option {
     opacity: 0;
-    transform: translate(-1920px; -1080px);
+    transform: translate(50%; 50%) translate(-1920px; -1080px);
     transtion: 1s ease, opacity: 0.1s ease;
     pointer-events: none;
 }
@@ -207,6 +207,6 @@
 .menu-background.in-view,
 .menu-option.in-view {
     opacity: 1;
-    transform: transilate(0; 0);
+    transform: transilate(50%; 50%);
     pointer-events: auto;
 }
