@@ -199,7 +199,7 @@
 .menu-option {
     opacity: 0;
     transform: translate(-50%, -50%) translate(-1920px, -1080px);
-    transition: 1s ease, opacity: 0.1s ease;
+    transition: transform 1s ease, opacity 0.1s ease;
     pointer-events: none;
 }
 
