@@ -106,6 +106,33 @@
 }
 
 /* ===== 作品選單 main-menu ===== */
+.menu-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 1920px;   /* 你 Figma 畫布的寬 */
+    height: 1080px;   /* 你 Figma 畫布的高 */
+    transform: translate(-50%, -50%);
+    z-index: 4998;
+}
+
+.menu-background svg {
+    position: absolute;
+}
+
+.line01 { top: 141px; left: 1293px;}
+.line02 { top: 454px; left: 1536px;}
+.line03 { top: 88px; left: 996px;}
+.line04 { top: 204px; left: 906px;}
+.line05 { top: 64px; left: 535px;}
+.line06 { top: 517px; left: 1092px;}
+.line07 { top: 348px; left: 660px;}
+.line08 { top: 508px; left: 701px;}
+.line09 { top: 458px; left: 455px;}
+.line10 { top: 448px; left: 282px;}
+.line11 { top: 739px; left: 677px;}
+.line12 { top: 739px; left: 392px;}
+
 .menu-option {
     position: fixed;
     top: 50%;
