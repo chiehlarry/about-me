@@ -1,3 +1,4 @@
+/* ===== 共用 / 版面 canvas ===== */
 .canvas {
     position: fixed;
     top: 0;
@@ -104,6 +105,7 @@
     transform-origin: top left;
 }
 
+/* ===== 作品選單 main-menu ===== */
 .menu-option {
     position: fixed;
     top: 50%;
@@ -114,51 +116,46 @@
     z-index: 4999;
 }
 
-.menu-toki {
+.menu-option img {
     position: absolute;
+}
+
+.menu-toki {
     top:150px;
     left:141px;
 }
 
 .menu-web {
-    position: absolute;
     top:344px;
     left:440px;
 }
 
 .menu-ice {
-    position: absolute;
     top:583px;
     left:141px;
 }
 
 .menu-slime {
-    position: absolute;
     top:767px;
     left:440px;
 }
 
-
 .menu-eraser {
-    position: absolute;
     top:186px;
     left:1381px;
 }
 
-
 .menu-illustration {
-    position: absolute;
     top:479px;
     left:1614px;
 }
 
-
 .menu-graphic {
-    position: absolute;
     top:766px;
     left:1431px;
 }
 
+/* ===== 開場動畫 scroll-finish ===== */
 .paint,
 .background-text {
     opacity:1;
