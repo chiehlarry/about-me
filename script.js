@@ -16,7 +16,6 @@ window.addEventListener('load', () => {
         document.querySelector('.paint').classList.add('fade-out');
         document.querySelector('.background-text').classList.add('fade-out');
     }, 2000); // 2000 = 頁面載入後等 2 秒才開始淡出，可自行調整
-});
 
         paint.addEventListener('transitionend', () => {
             document.querySelector('.menu-background').classList.add('in-view');
