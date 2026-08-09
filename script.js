@@ -21,3 +21,4 @@ window.addEventListener('load', () => {
             document.querySelector('.menu-option').classList.add('in-view');
         }, { once: true });
     }, 2000);// 2000 = 頁面載入後等 2 秒才開始淡出，可自行調整
+}); 
