@@ -17,14 +17,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -40%);
-    z-index: 4999;
+    z-index: 5000;
 }
 .me-start {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -40%);
-    z-index: 4999;
+    z-index: 5000;
 }
 .paint {
     position: fixed;
@@ -104,6 +104,61 @@
     transform-origin: top left;
 }
 
+.menu-option {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 1920px;   /* 你 Figma 畫布的寬 */
+    height: 1080px;   /* 你 Figma 畫布的高 */
+    transform: translate(-50%, -50%);
+    z-index: 4999;
+}
+
+.menu_toki {
+    position: absolute;
+    top:150px;
+    left:141px;
+}
+
+.menu_web {
+    position: absolute;
+    top:344px;
+    left:440px;
+}
+
+.menu_ice {
+    position: absolute;
+    top:583px;
+    left:141px;
+}
+
+.menu_slime {
+    position: absolute;
+    top:767px;
+    left:440px;
+}
+
+
+.menu_eraser {
+    position: absolute;
+    top:186px;
+    left:1381px;
+}
+
+
+.menu_illustration {
+    position: absolute;
+    top:479px;
+    left:1614px;
+}
+
+
+.menu_graphic {
+    position: absolute;
+    top:766px;
+    left:1431px;
+}
+
 .paint,
 .background-text {
     opacity:1;
@@ -115,3 +170,4 @@
     opacity: 0;
     pointer-events: none;
 }
+
