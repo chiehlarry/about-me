@@ -114,46 +114,46 @@
     z-index: 4999;
 }
 
-.menu_toki {
+.menu-toki {
     position: absolute;
     top:150px;
     left:141px;
 }
 
-.menu_web {
+.menu-web {
     position: absolute;
     top:344px;
     left:440px;
 }
 
-.menu_ice {
+.menu-ice {
     position: absolute;
     top:583px;
     left:141px;
 }
 
-.menu_slime {
+.menu-slime {
     position: absolute;
     top:767px;
     left:440px;
 }
 
 
-.menu_eraser {
+.menu-eraser {
     position: absolute;
     top:186px;
     left:1381px;
 }
 
 
-.menu_illustration {
+.menu-illustration {
     position: absolute;
     top:479px;
     left:1614px;
 }
 
 
-.menu_graphic {
+.menu-graphic {
     position: absolute;
     top:766px;
     left:1431px;
