@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
         }, { once: true });
 
         menubackground.addEventListener('transitionend', (e) => {
-            if(e.propertyName === 'transfrom') {
+            if(e.propertyName === 'transform') {
             document.querySelector('.menu-guide').classList.add('fade-in');}
         }, { once: true });
         
