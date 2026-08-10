@@ -32,3 +32,6 @@ window.addEventListener('load', () => {
     }, 2000);// 2000 = 頁面載入後等 2 秒才開始執行動畫
 }); 
 
+document.querySelector('.menu-toki').addEventListener('mouseover', function(){
+    document.querySelector('.menu-background').style.stroke='#529D7F'
+})
