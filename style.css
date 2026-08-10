@@ -141,8 +141,8 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 1920px;   /* 你 Figma 畫布的寬 */
-    height: 1080px;   /* 你 Figma 畫布的高 */
+    width: 1920px;   /*  Figma 畫布的寬 */
+    height: 1080px;   /*  Figma 畫布的高 */
     transform: translate(-50%, -50%);
     z-index: 4999;
 }
@@ -150,6 +150,10 @@
 .menu-option img {
     position: absolute;
     transition:transform 0.3s ease;
+}
+
+.menu-option div {
+    position: absolute;
 }
 
 .menu-toki {
@@ -163,6 +167,24 @@
 
 .menu-background.highlight01 path{
     stroke: #529D7F;
+}
+
+.menu-toki-title {
+    top:102PX;
+    left:83PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-toki-text {
+    top:230PX;
+    left:280PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-toki:hover .menu-toki-title, .menu-toki-text {
+    opacity: 1
 }
 
 .menu-web {
