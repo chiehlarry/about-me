@@ -32,7 +32,11 @@ window.addEventListener('load', () => {
     }, 2000);// 2000 = 頁面載入後等 2 秒才開始執行動畫
 }); 
 //hover變化內容
-const menutoki = document.querySelector('.menu-toki');
 const menubg = document.querySelector('.menu-background');
+const menutoki = document.querySelector('.menu-toki');
 menutoki.addEventListener('mouseover', () => menubg.classList.add('highlight01'))
 menutoki.addEventListener('mouseout' , () => menubg.classList.remove('highlight01'))
+
+const menuweb = document.querySelector('.menu-web');
+menuweb.addEventListener('mouseover', () => menubg.classList.add('highlight02'))
+menuweb.addEventListener('mouseout' , () => menubg.classList.remove('highlight02'))
