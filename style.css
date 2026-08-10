@@ -153,9 +153,10 @@
 
 .menu-toki:hover {
     transform:scale(1.2);
+    transition:transform 0.3s ease;
 }
 
-.menu-background.highlight01 {
+.menu-background.highlight01 path{
     stroke: #529D7F;
 }
 
