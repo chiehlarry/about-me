@@ -170,15 +170,15 @@
 }
 
 .menu-toki-title {
-    top:102PX;
-    left:83PX;
+    top:134PX;
+    left:99PX;
     opacity:0;
     transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
 }
 
 .menu-toki-text {
     top:230PX;
-    left:280PX;
+    left:331PX;
     opacity:0;
     transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
 }
