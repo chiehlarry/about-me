@@ -120,6 +120,10 @@
     position: absolute;
 }
 
+.menu-background path {
+    transition: stroke 0.5s ease;
+}
+
 .line01 { top: 141px; left: 1293px;}
 .line02 { top: 454px; left: 1536px;}
 .line03 { top: 88px; left: 996px;}
@@ -145,6 +149,7 @@
 
 .menu-option img {
     position: absolute;
+    transition:transform 0.3s ease;
 }
 
 .menu-toki {
@@ -154,7 +159,6 @@
 
 .menu-toki:hover {
     transform:scale(1.2);
-    transition:transform 0.3s ease;
 }
 
 .menu-background.highlight01 path{
