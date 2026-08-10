@@ -154,9 +154,6 @@
 .menu-toki:hover {
     transform:scale(1.2);
 }
-.menu-toki:hover .menu-background path{
-    stroke:#529D7F;
-}
 
 .menu-web {
     top:344px;
