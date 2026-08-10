@@ -228,27 +228,157 @@ p {
     top:583px;
     left:141px;
 }
+.menu-ice:hover {
+    transform:scale(1.2);
+}
 
+.menu-background.highlight03 path{
+    stroke: #586796;
+}
+
+.menu-ice-title {
+    top:563PX;
+    left:402PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-ice-text {
+    top:610PX;
+    left:423PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-ice:hover ~ .menu-ice-title, 
+.menu-ice:hover ~ .menu-ice-text {
+    opacity: 1
+}
+/* ===== slime ===== */
 .menu-slime {
     top:767px;
     left:440px;
 }
+.menu-slime:hover {
+    transform:scale(1.2);
+}
 
+.menu-background.highlight04 path{
+    stroke: #B94342;
+}
+
+.menu-slime-title {
+    top:891PX;
+    left:217PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-slime-text {
+    top:938PX;
+    left:268PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-slime:hover ~ .menu-slime-title, 
+.menu-slime:hover ~ .menu-slime-text {
+    opacity: 1
+}
+/* ===== eraser ===== */
 .menu-eraser {
     top:186px;
     left:1381px;
 }
+.menu-eraser:hover {
+    transform:scale(1.2);
+}
 
+.menu-background.highlight05 path{
+    stroke: #888888;
+}
+
+.menu-eraser-title {
+    top:323PX;
+    left:1471PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-eraser-text {
+    top:370PX;
+    left:1562PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-eraser:hover ~ .menu-eraser-title, 
+.menu-eraser:hover ~ .menu-eraser-text {
+    opacity: 1
+}
+/* ===== illustration ===== */
 .menu-illustration {
     top:479px;
     left:1614px;
 }
+.menu-illustration:hover {
+    transform:scale(1.2);
+}
 
+.menu-background.highlight06 path{
+    stroke: #ADC8C3;
+}
+
+.menu-illustration-title {
+    top:418PX;
+    left:1406PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-illustration-text {
+    top:463PX;
+    left:1327PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-illustration:hover ~ .menu-illustration-title, 
+.menu-illustration:hover ~ .menu-illustration-text {
+    opacity: 1
+}
+/* ===== graphic ===== */
 .menu-graphic {
     top:766px;
     left:1431px;
 }
+.menu-graphic:hover {
+    transform:scale(1.2);
+}
 
+.menu-background.highlight07 path{
+    stroke: #919A5C;
+}
+
+.menu-graphic-title {
+    top:693PX;
+    left:1256PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-graphic-text {
+    top:913PX;
+    left:1530PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-graphic:hover ~ .menu-graphic-title, 
+.menu-graphic:hover ~ .menu-graphic-text {
+    opacity: 1
+}
+/* ===== guide ===== */
 .menu-guide {
     position: absolute;
     top:88px;
