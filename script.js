@@ -10,7 +10,7 @@ function scaleCanvas() {
 }
 window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
-
+// 自動載入動畫
 window.addEventListener('load', () => {
     setTimeout(() => {
         const paint = document.querySelector('.paint');
@@ -31,7 +31,8 @@ window.addEventListener('load', () => {
         
     }, 2000);// 2000 = 頁面載入後等 2 秒才開始執行動畫
 }); 
-
-document.querySelector('.menu-toki').addEventListener('mouseover', function(){
-    document.querySelector('.menu-background').style.stroke='#529D7F'
-})
+//hover變化內容
+const menutoki = document.querySelector('.menu-toki');
+const menubg = document.querySelector('.menu-background');
+menutoki.addEventListener('mouseover', () => menubg.classList.add('highlight'))
+menutoki.addEventListener('mouseout' , () => menubg.classList.add('highlight'))
