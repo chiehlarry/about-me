@@ -151,7 +151,7 @@
     left:141px;
 }
 
-.menu-toki {
+.menu-toki:hover {
     transform:scale(1.2);
 }
 .menu-toki:hover .menu-background path{
