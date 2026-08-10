@@ -34,5 +34,5 @@ window.addEventListener('load', () => {
 //hover變化內容
 const menutoki = document.querySelector('.menu-toki');
 const menubg = document.querySelector('.menu-background');
-menutoki.addEventListener('mouseover', () => menubg.classList.add('highlight'))
-menutoki.addEventListener('mouseout' , () => menubg.classList.add('highlight'))
+menutoki.addEventListener('mouseover', () => menubg.classList.add('highlight01'))
+menutoki.addEventListener('mouseout' , () => menubg.classList.add('highlight01'))
