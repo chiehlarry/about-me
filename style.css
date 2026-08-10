@@ -151,8 +151,11 @@
     left:141px;
 }
 
-.menu-toki:hover .menu-background {
-    fill:#529D7F
+.menu-toki {
+    transform:scale(1.2);
+}
+.menu-toki:hover .menu-background path{
+    stroke:#529D7F;
 }
 
 .menu-web {
