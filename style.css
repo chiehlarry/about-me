@@ -155,7 +155,7 @@
 .menu-option div {
     position: absolute;
 }
-
+/* ===== toki ===== */
 .menu-toki {
     top:150px;
     left:141px;
@@ -183,10 +183,11 @@
     transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
 }
 
-.menu-toki:hover .menu-toki-title, .menu-toki-text {
+.menu-toki:hover ~ .menu-toki-title, 
+.menu-toki:hover ~ .menu-toki-text {
     opacity: 1
 }
-
+/* ===== web ===== */
 .menu-web {
     top:344px;
     left:440px;
