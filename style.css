@@ -184,7 +184,8 @@
 .menu-guide {
     position: absolute;
     top:88px;
-    left:481px:
+    left:481px;
+    z-index: 4999
 }
 
 /* ===== 開場動畫 scroll-finish ===== */
