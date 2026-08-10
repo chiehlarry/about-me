@@ -222,6 +222,11 @@
     top:88px;
     left:481px;
     z-index: 4999;
+    transition: opacity 0.8s ease 0.1s
+}
+
+.menu-option img:hover .menu-guide {
+    opacity:0
 }
 
 /* ===== 開場動畫 scroll-finish ===== */
