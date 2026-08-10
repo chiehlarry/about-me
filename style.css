@@ -85,22 +85,22 @@
 }
 
 .lai {
-    top: 331px;    /* ← 換成 Figma Inspect 給的實際 y */
-    left: 443px;  /* ← 換成 Figma Inspect 給的實際 x */
+    top: 381px;    /* ← 換成 Figma Inspect 給的實際 y */
+    left: 393px;  /* ← 換成 Figma Inspect 給的實際 x */
     transform: rotate(-5deg);
     transform-origin: top left;
 }
 
 .chieh {
-    top: 578px;   /* ← 換成 Figma Inspect 給的實際 y */
-    left: 263px;   /* ← 換成 Figma Inspect 給的實際 x */
+    top: 628px;   /* ← 換成 Figma Inspect 給的實際 y */
+    left: 213px;   /* ← 換成 Figma Inspect 給的實際 x */
     transform: rotate(-5deg);
     transform-origin: top left;
 }
 
 .lu {
-    top: 418px;    /* ← 換成 Figma Inspect 給的實際 y */
-    left: 1292px; /* ← 換成 Figma Inspect 給的實際 x */
+    top: 468px;    /* ← 換成 Figma Inspect 給的實際 y */
+    left: 1242px; /* ← 換成 Figma Inspect 給的實際 x */
     transform: rotate(-5deg);
     transform-origin: top left;
 }
