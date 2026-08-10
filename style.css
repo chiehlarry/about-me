@@ -155,6 +155,10 @@
     transform:scale(1.2);
 }
 
+.menu-background.highlight01 {
+    stroke: #529D7F;
+}
+
 .menu-web {
     top:344px;
     left:440px;
