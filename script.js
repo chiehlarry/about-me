@@ -23,8 +23,9 @@ window.addEventListener('load', () => {
             document.querySelector('.menu-option').classList.add('in-view');
         }, { once: true });
 
-        menubackground.addEventListener('transitionend', () => {
-            document.querySelector('.menu-guide').classList.add('fade-in');
+        menubackground.addEventListener('transitionend', (e) => {
+            if(e.propertyname === 'transfrom') {
+            document.querySelector('.menu-guide').classList.add('fade-in');}
         }, { once: true });
         
     }, 2000);// 2000 = 頁面載入後等 2 秒才開始執行動畫
