@@ -57,6 +57,6 @@ const menuillustration = document.querySelector('.menu-illustration');
 menuillustration.addEventListener('mouseover', () => menubg.classList.add('highlight06'))
 menuillustration.addEventListener('mouseout' , () => menubg.classList.remove('highlight06'))
 
-const menu = document.querySelector('.menu-graphic');
+const menugraphic = document.querySelector('.menu-graphic');
 menugraphic.addEventListener('mouseover', () => menubg.classList.add('highlight07'))
 menugraphic.addEventListener('mouseout' , () => menubg.classList.remove('highlight07'))
