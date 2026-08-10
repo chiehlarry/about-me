@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
             document.querySelector('.menu-option').classList.add('in-view');
         }, { once: true });
 
-        menubackground.addEventListener('transitionend', function handler(e) => {
+        menubackground.addEventListener('transitionend', function handler(e){
             if(e.propertyName === 'transform') {
             document.querySelector('.menu-guide').classList.add('fade-in');
             menubackground.removeEventListener('transitionend', handler);}
