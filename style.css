@@ -33,6 +33,14 @@ p {
     transform: translate(-50%, -40%);
     z-index: 5000;
 }
+/* ===== 側邊選單 ===== */
+.side-bar {
+    position: fixed;
+    width:492px;
+    height:1080px;
+    background:#E3BC45;
+}
+/* ===== 背景paint ===== */
 .paint {
     position: fixed;
     top: 50%;
