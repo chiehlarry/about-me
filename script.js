@@ -40,3 +40,23 @@ menutoki.addEventListener('mouseout' , () => menubg.classList.remove('highlight0
 const menuweb = document.querySelector('.menu-web');
 menuweb.addEventListener('mouseover', () => menubg.classList.add('highlight02'))
 menuweb.addEventListener('mouseout' , () => menubg.classList.remove('highlight02'))
+
+const menuice = document.querySelector('.menu-ice');
+menuice.addEventListener('mouseover', () => menubg.classList.add('highlight03'))
+menuice.addEventListener('mouseout' , () => menubg.classList.remove('highlight03'))
+
+const menuslime = document.querySelector('.menu-slime');
+menuslime.addEventListener('mouseover', () => menubg.classList.add('highlight04'))
+menuslime.addEventListener('mouseout' , () => menubg.classList.remove('highlight04'))
+
+const menueraser = document.querySelector('.menu-eraser');
+menueraser.addEventListener('mouseover', () => menubg.classList.add('highlight05'))
+menueraser.addEventListener('mouseout' , () => menubg.classList.remove('highlight05'))
+
+const menuillustration = document.querySelector('.menu-illustration');
+menuillustration.addEventListener('mouseover', () => menubg.classList.add('highlight06'))
+menuillustration.addEventListener('mouseout' , () => menubg.classList.remove('highlight06'))
+
+const menu = document.querySelector('.menu-graphic');
+menugraphic.addEventListener('mouseover', () => menubg.classList.add('highlight07'))
+menugraphic.addEventListener('mouseout' , () => menubg.classList.remove('highlight07'))
