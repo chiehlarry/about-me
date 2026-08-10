@@ -19,6 +19,7 @@
     left: 50%;
     transform: translate(-50%, -40%);
     z-index: 5000;
+    pointer-events: none
 }
 .me-start {
     position: fixed;
