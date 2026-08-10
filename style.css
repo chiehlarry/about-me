@@ -197,7 +197,33 @@ p {
     top:344px;
     left:440px;
 }
+.menu-web:hover {
+    transform:scale(1.2);
+}
 
+.menu-background.highlight02 path{
+    stroke: #C93AA1;
+}
+
+.menu-web-title {
+    top:458PX;
+    left:322PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-web-text {
+    top:269PX;
+    left:492PX;
+    opacity:0;
+    transition:opacity 0.8s ease 0.1s/* 最後指延遲時間 */
+}
+
+.menu-web:hover ~ .menu-web-title, 
+.menu-web:hover ~ .menu-web-text {
+    opacity: 1
+}
+/* ===== ice ===== */
 .menu-ice {
     top:583px;
     left:141px;
