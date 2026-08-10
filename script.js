@@ -35,4 +35,4 @@ window.addEventListener('load', () => {
 const menutoki = document.querySelector('.menu-toki');
 const menubg = document.querySelector('.menu-background');
 menutoki.addEventListener('mouseover', () => menubg.classList.add('highlight01'))
-menutoki.addEventListener('mouseout' , () => menubg.classList.add('highlight01'))
+menutoki.addEventListener('mouseout' , () => menubg.classList.remove('highlight01'))
