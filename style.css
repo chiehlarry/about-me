@@ -226,7 +226,7 @@
     transition: opacity 0.8s ease 0.1s
 }
 
-.menu-option img:hover ~ .menu-guide {
+.main-menu:has(.menu-option img:hover) .menu-guide {
     opacity:0
 }
 
