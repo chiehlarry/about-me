@@ -45,7 +45,8 @@ p {
     background:#E3BC45;
     right:-492px;
     z-index:9997;
-    transition: 0.3s ease
+    opacity:0;
+    transition: 0.3s opacity 0.1s ease;
 }
 .side-bar p {
     color:#fff;
@@ -54,6 +55,7 @@ p {
 }
 .side-bar.open {
     right:0;
+    opacity:1;
 }
 .side-bar div {
     width: 328px;
