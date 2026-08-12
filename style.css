@@ -52,6 +52,7 @@ p {
     color:#fff;
     z-index:9998;
     position:absolute;
+    white-space: nowrap;
 }
 .side-bar.open {
     right:0;
