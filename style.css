@@ -53,8 +53,10 @@ p {
     white-space: nowrap;
 }
 .side-bar img {
+    width:384px;
+    padding:50px;
     opacity:0;
-    transition:0.3s ease 0.3s;
+    transition:0.3s ease;
 }
 
 .side-bar.open {
