@@ -76,6 +76,7 @@ p {
 .side-about-me:hover {
     width:374px;
     height:146px;
+    padding:5px;
     background-color:#fff;
 }
 .side-about-me:hover p {
