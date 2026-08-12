@@ -42,8 +42,12 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
+    right:-492px;
+}
+.sidebar.open {
     right:0;
 }
+
 .side-bar div {
     transition: 0.3s ease
 }
