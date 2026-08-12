@@ -48,8 +48,9 @@ p {
     transition: 0.3s ease
 }
 .side-about-me:hover {
-    transform: scale(374px, 146px);
-    backgroundcolor:#fff;
+    width:374px;
+    height:146px;
+    background-color:#fff;
 }
 .side-about-me:hover p {
     color:#E3BC45;
