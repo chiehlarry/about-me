@@ -39,13 +39,11 @@ p {
     width:492px;
     height:1080px;
     background:#E3BC45;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-.side-bar-option {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 /* ===== 背景paint ===== */
 .paint {
     position: fixed;
