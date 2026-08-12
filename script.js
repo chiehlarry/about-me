@@ -31,6 +31,12 @@ window.addEventListener('load', () => {
         
     }, 2000);// 2000 = 頁面載入後等 2 秒才開始執行動畫
 }); 
+
+//sidebar
+const sidebar = document.querySelector('.side-bar');
+const menubutton = document.querySelector('.menu-button');
+menubutton.addEventListener('click' , () => sidebar.classList.add('open'))
+
 //hover變化內容
 const menubg = document.querySelector('.menu-background');
 const menutoki = document.querySelector('.menu-toki');
