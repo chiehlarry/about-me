@@ -44,6 +44,7 @@ p {
     height:1080px;
     background:#E3BC45;
     right:-492px;
+    color:#fff;
 }
 .side-bar.open {
     right:0;
