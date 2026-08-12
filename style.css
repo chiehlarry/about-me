@@ -52,6 +52,11 @@ p {
     z-index:9998;
     white-space: nowrap;
 }
+.side-bar img {
+    opacity:0;
+    transition:0.3s ease 0.3s;
+}
+
 .side-bar.open {
     right:0;
 }
@@ -78,6 +83,10 @@ p {
 }
 .side-about-me:hover p {
     color:#E3BC45;
+}
+
+.side-about-me:hover img {
+    opacity:1;
 }
 /* ===== 背景paint ===== */
 .paint {
