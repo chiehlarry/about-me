@@ -49,6 +49,7 @@ p {
 .side-bar p {
     color:#fff;
     z-index:9998;
+    position:absolute;
 }
 .side-bar.open {
     right:0;
