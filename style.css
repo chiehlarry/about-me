@@ -44,6 +44,13 @@ p {
     align-content: center;
 }
 
+.side-about-me:hover {
+    transform: scale(374px, 146px);
+    backgroundcolor:#fff;
+}
+.side-about-me:hover p {
+    color:#E3BC45;
+}
 /* ===== 背景paint ===== */
 .paint {
     position: fixed;
