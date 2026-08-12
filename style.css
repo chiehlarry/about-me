@@ -179,7 +179,7 @@ p {
     z-index: 4999;
 }
 
-.menu-option img {
+.menu-option a {
     position: absolute;
     transition:transform 0.3s ease;
 }
