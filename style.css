@@ -44,7 +44,7 @@ p {
     align-content: center;
     right:-492px;
 }
-.sidebar.open {
+.side-bar.open {
     right:0;
 }
 
