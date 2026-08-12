@@ -42,6 +42,7 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
+    right:0;
 }
 .side-bar div {
     transition: 0.3s ease
