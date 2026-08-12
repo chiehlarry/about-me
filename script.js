@@ -36,6 +36,7 @@ window.addEventListener('load', () => {
 const sidebar = document.querySelector('.side-bar');
 const menubutton = document.querySelector('.menu');
 menubutton.addEventListener('click' , () => sidebar.classList.add('open'))
+menubutton.addEventListener('click' , () => menubutton.classList.add('active'))
 
 //hover變化內容
 const menubg = document.querySelector('.menu-background');
