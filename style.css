@@ -39,6 +39,8 @@ p {
     width:492px;
     height:1080px;
     background:#E3BC45;
+    right:0px;
+    transform:translate(0, 100%);
     display: flex;
     justify-content: center;
     align-content: center;
