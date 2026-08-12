@@ -69,46 +69,14 @@ p {
     transition: 0.3s ease
 }
 
-.side-about-me {
-    top:132px;
-    left:68px;
-}
 .side-about-me:hover {
     width:374px;
     height:146px;
-    padding:5px;
+    padding:10px;
     background-color:#fff;
 }
 .side-about-me:hover p {
     color:#E3BC45;
-}
-.side-slime {
-    top:227px;
-    left:68px;
-}
-.side-ice {
-    top:322px;
-    left:68px;
-}
-.side-eraser {
-    top:417px;
-    left:68px;
-}
-.side-toki {
-    top:512px;
-    left:68px;
-}
-.side-graphic {
-    top:607px;
-    left:68px;
-}
-.side-web {
-    top:702px;
-    left:68px;
-}
-.side-illustration {
-    top:797px;
-    left:68px;
 }
 /* ===== 背景paint ===== */
 .paint {
