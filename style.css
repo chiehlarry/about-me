@@ -13,6 +13,9 @@
     right: 20px;  /* 距離畫面右側 20px */
     z-index: 9999; /* 確保顯示在其他元素上方 */
 }
+.menu.open {
+    color:#fff;
+}
 .me-happy {
     position: fixed;
     top: 50%;
