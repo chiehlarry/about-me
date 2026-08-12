@@ -14,7 +14,7 @@
     right: 20px;  /* 距離畫面右側 20px */
     z-index: 9999; /* 確保顯示在其他元素上方 */
 }
-.menu:active {
+.menu:checked {
     stroke:#fff;
 }
 .me-happy {
