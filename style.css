@@ -74,6 +74,7 @@ p {
     height:146px;
     padding:10px;
     background-color:#fff;
+    transform:translate(0,-10px)
 }
 .side-about-me:hover p {
     color:#E3BC45;
