@@ -55,10 +55,17 @@ p {
 .side-bar.open {
     right:0;
 }
+.side-bar-option {
+    display:flex;
+    flex-direction:column;
+    padding-top:132px;
+    padding-left:68px;
+    gap:29px;
+}
+
 .side-bar div {
     width: 328px;
     height: 66px;
-    position:absolute;
     transition: 0.3s ease
 }
 
