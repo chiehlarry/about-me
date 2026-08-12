@@ -43,7 +43,9 @@ p {
     justify-content: center;
     align-content: center;
 }
-
+.side-bar div {
+    transition: 0.3s ease
+}
 .side-about-me:hover {
     transform: scale(374px, 146px);
     backgroundcolor:#fff;
