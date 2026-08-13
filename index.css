@@ -469,7 +469,7 @@ p {
 }
 .menu-aboutme-text {
     position:absolute;
-    top: 249px;
+    top: 230px;
     left: 1168px;
     opacity:0;
     transition: 0.1s ease
