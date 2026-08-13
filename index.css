@@ -474,11 +474,9 @@ p {
     opacity:0;
     transition: 0.1s ease
 }
-.menu-aboutme-fake:hover ~ .menu-aboutme-title span {
-    opacity: 1;
-}
-.menu-aboutme-fake:hover ~ .menu-aboutme-text {
-    opacity:1;
+.main-menu:has(.menu-aboutme-fake:hover) .menu-aboutme-title span,
+.main-menu:has(.menu-aboutme-fake:hover) .menu-aboutme-text {
+    opacity:1
 }
 .main-menu:has(.menu-aboutme-fake:hover) .menu-background {
     opacity:0
