@@ -441,7 +441,7 @@ p {
 .menu-aboutme-fake {
     top: 285px;
     left: 900px;
-    z-index: 5001;
+    z-index: 5002;
     opacity:0
 }
 .menu-aboutme-text span {
@@ -453,6 +453,7 @@ p {
     white-space: nowrap; 
     opacity:0;
     transition:0.3s ease;
+    z-index:5001;
 }
 .about {
     top:597px;
