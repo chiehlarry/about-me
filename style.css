@@ -437,6 +437,37 @@ p {
 .menu-graphic:hover ~ .menu-graphic-text {
     opacity: 1
 }
+/* ===== about me===== */
+.menu-aboutme-fake {
+    top: 285px;
+    left: 882px;
+    z-index: 5001
+}
+.menu-aboutme-text span {
+    position: absolute;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 255px;
+    white-space: nowrap; 
+    opacity:0
+}
+.about {
+    top:597px;
+    left:230px;
+    transform: rotate(-5deg);
+    transform-origin: top left;
+}
+.me {
+    top:534px;
+    left:1024px;
+    transform: rotate(-5deg);
+    transform-origin: top left;
+}
+.menu-aboutme-fake:hover ~ .menu-aboutme-text span {
+    opacity: 1
+}
+
 /* ===== guide ===== */
 .menu-guide {
     position: absolute;
@@ -449,7 +480,6 @@ p {
 .main-menu:has(.menu-option img:hover) .menu-guide {
     opacity:0
 }
-
 /* ===== 開場動畫 scroll-finish ===== */
 .paint,
 .background-text {
