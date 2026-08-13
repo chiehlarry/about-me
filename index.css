@@ -444,7 +444,7 @@ p {
     z-index: 5002;
     opacity:0
 }
-.menu-aboutme-text span {
+.menu-aboutme-title span {
     position: absolute;
     color: white;
     font-style: italic;
@@ -467,7 +467,7 @@ p {
     transform: rotate(-5deg);
     transform-origin: top left;
 }
-.menu-aboutme-fake:hover ~ .menu-aboutme-text span {
+.menu-aboutme-fake:hover ~ .menu-aboutme-title span {
     opacity: 1
 }
 .main-menu:has(.menu-aboutme-fake:hover) .menu-background {
