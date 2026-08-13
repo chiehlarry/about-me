@@ -467,8 +467,18 @@ p {
     transform: rotate(-5deg);
     transform-origin: top left;
 }
+.menu-aboutme-text {
+    position:absolute;
+    top: 249px;
+    left: 1168px;
+    opacity:0;
+    transition: 0.1s ease
+}
 .menu-aboutme-fake:hover ~ .menu-aboutme-title span {
-    opacity: 1
+    opacity: 1;
+}
+.menu-aboutme-fake:hover ~ .menu-aboutme-text {
+    opacity:1;
 }
 .main-menu:has(.menu-aboutme-fake:hover) .menu-background {
     opacity:0
