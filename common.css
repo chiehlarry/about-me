@@ -9,7 +9,6 @@
 }
 .menu {
     position: fixed;
-    stroke:#E3BC45;
     top: 20px;    /* 距離畫面頂端 20px */
     right: 20px;  /* 距離畫面右側 20px */
     z-index: 9999; /* 確保顯示在其他元素上方 */
@@ -25,7 +24,6 @@ p {
     position: fixed;
     width:492px;
     height:1080px;
-    background:#E3BC45;
     right:-492px;
     z-index:9997;
     transition: 0.3s ease;
@@ -65,10 +63,6 @@ p {
     padding:10px;
     background-color:#fff;
     transform:translate(0,-10px)
-}
-
-.side-bar div:hover p {
-    color:#E3BC45;
 }
 
 .side-bar div:hover img {
