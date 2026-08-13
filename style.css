@@ -469,6 +469,9 @@ p {
 .menu-aboutme-fake:hover ~ .menu-aboutme-text span {
     opacity: 1
 }
+.main-menu:has(.menu-aboutme-fake:hover) .menu-background {
+    opacity:0
+}
 
 /* ===== guide ===== */
 .menu-guide {
