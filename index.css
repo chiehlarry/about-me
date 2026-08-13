@@ -99,7 +99,7 @@ p {
     width: 1920px;   /* 你 Figma 畫布的寬 */
     height: 1080px;   /* 你 Figma 畫布的高 */
     transform: translate(-50%, -50%);
-    z-index: 4998;
+    z-index: 5001;
 }
 
 .biggest-paint {
