@@ -1,10 +1,9 @@
 /* ===== 共用 / 版面 canvas ===== */
 .canvas {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 1920px;
-    height: 1080px;
     transform-origin: top left;
 }
 .menu {
