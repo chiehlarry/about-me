@@ -46,7 +46,6 @@ p {
     right:-492px;
     z-index:9997;
     transition: 0.3s ease;
-    display:none;
 }
 .side-bar p {
     color:#fff;
@@ -62,7 +61,6 @@ p {
 
 .side-bar.open {
     right:0;
-    display:block;
 }
 .side-bar-option {
     display:flex;
