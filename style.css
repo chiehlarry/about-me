@@ -76,7 +76,7 @@ p {
     transition: 0.3s ease;
 }
 
-.side-about-me:hover {
+.side-bar div:hover {
     width:374px;
     height:146px;
     padding:10px;
@@ -84,11 +84,11 @@ p {
     transform:translate(0,-10px)
 }
 
-.side-about-me:hover p {
+.side-bar div:hover p {
     color:#E3BC45;
 }
 
-.side-about-me:hover img {
+.side-bar div:hover img {
     opacity:1;
 }
 /* ===== 背景paint ===== */
