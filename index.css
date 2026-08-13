@@ -473,6 +473,10 @@ p {
 .main-menu:has(.menu-aboutme-fake:hover) .menu-background {
     opacity:0
 }
+.menu-aboutme-fake:hover ~ .menu-option img {
+    opacity:0;
+    pointer-events:none;
+}
 .canvas:has(.menu-aboutme-fake:hover) .paint.fade-out {
     opacity:1;
     transform:translate(-50%,-50%) scale(1);
