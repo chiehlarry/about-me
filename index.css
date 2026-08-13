@@ -116,7 +116,7 @@ p {
 .paint-02 {
     position: absolute;
     top:148.65px;
-    left:1484.27px;
+    left:1684.27px;
 }
 
 .paint-03 {
@@ -483,7 +483,7 @@ p {
 .main-menu:has(.menu-aboutme-fake:hover) .menu-background {
     opacity:0
 }
-.menu-aboutme-fake:hover ~ .menu-option img {
+.main-menu:has(.menu-aboutme-fake:hover) .menu-option img {
     opacity:0;
     pointer-events:none;
 }
