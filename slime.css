@@ -1,1 +1,10 @@
-
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#B94342;
+}
+.side-bar {
+  background:#B94342;
+}
+.side-bar div:hover p {
+    color:#B94342;
+}
