@@ -104,8 +104,8 @@ p {
 
 .biggest-paint {
     position: absolute;
-    top: 21px;      /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 y */
-    left: 207px;     /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 x */
+    top: 38px;      /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 y */
+    left: 179.81px;     /* ← 換成 Figma 上這個 svg 相對畫布左上角的實際 x */
 }
 .paint-01 {
     position: absolute;
@@ -115,14 +115,14 @@ p {
 
 .paint-02 {
     position: absolute;
-    top:131.65px;
-    left:1446.27px;
+    top:148.65px;
+    left:1484.27px;
 }
 
 .paint-03 {
     position: absolute;
-    top:90.51px;
-    left:1310.99px;
+    top:107.51px;
+    left:1548.99px;
 }
 
 .paint-04 {
