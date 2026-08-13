@@ -76,16 +76,16 @@ p {
     transition: 0.3s ease
 }
 
+.side-about-me {
+    background-image:url('./個人用/me_banner 1.png');
+}
+
 .side-about-me:hover {
     width:374px;
     height:146px;
     padding:10px;
     background-color:#fff;
     transform:translate(0,-10px)
-}
-
-.side-about-me {
-    background-image:url('./個人用/me_banner 1.png');
 }
 
 .side-about-me:hover p {
