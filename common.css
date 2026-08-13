@@ -1,1 +1,76 @@
+/* ===== 共用 / 版面 canvas ===== */
+.canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    transform-origin: top left;
+}
+.menu {
+    position: fixed;
+    stroke:#E3BC45;
+    top: 20px;    /* 距離畫面頂端 20px */
+    right: 20px;  /* 距離畫面右側 20px */
+    z-index: 9999; /* 確保顯示在其他元素上方 */
+}
+.menu.active {
+    stroke:#fff;
+}
+p {
+    line-height: 1.3;
+}
+/* ===== 側邊選單 ===== */
+.side-bar {
+    position: fixed;
+    width:492px;
+    height:1080px;
+    background:#E3BC45;
+    right:-492px;
+    z-index:9997;
+    transition: 0.3s ease;
+}
+.side-bar p {
+    color:#fff;
+    z-index:9998;
+    white-space: nowrap;
+}
+.side-bar img {
+    width:374px;
+    padding-top:10px;
+    opacity:0;
+    transition:0.3s ease;
+}
 
+.side-bar.open {
+    right:0;
+}
+.side-bar-option {
+    display:flex;
+    flex-direction:column;
+    padding-top:132px;
+    padding-left:68px;
+    gap:29px;
+}
+
+.side-bar div {
+    width: 328px;
+    height: 66px;
+    transition: 0.3s ease;
+}
+
+.side-bar div:hover {
+    width:374px;
+    height:146px;
+    padding:10px;
+    background-color:#fff;
+    transform:translate(0,-10px)
+}
+
+.side-bar div:hover p {
+    color:#E3BC45;
+}
+
+.side-bar div:hover img {
+    opacity:1;
+}
