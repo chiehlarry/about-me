@@ -55,7 +55,6 @@ p {
 .side-bar img {
     width:384px;
     padding-top:5px;
-    inset:0;
     opacity:0;
     transition:0.3s ease;
 }
