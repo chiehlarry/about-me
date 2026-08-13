@@ -481,8 +481,10 @@ p {
     z-index: 4999;
     transition: opacity 0.8s ease 0.1s
 }
-
 .main-menu:has(.menu-option img:hover) .menu-guide {
+    opacity:0
+}
+.main-menu:has(.menu-aboutme-fake:hover) .menu-guide {
     opacity:0
 }
 /* ===== 開場動畫 scroll-finish ===== */
