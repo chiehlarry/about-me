@@ -457,19 +457,19 @@ p {
 }
 .about {
     top:597px;
-    left:230px;
+    left:250px;
     transform: rotate(-5deg);
     transform-origin: top left;
 }
 .me {
-    top:534px;
-    left:1024px;
+    top:530px;
+    left:1044px;
     transform: rotate(-5deg);
     transform-origin: top left;
 }
 .menu-aboutme-text {
     position:absolute;
-    top: 230px;
+    top: 225px;
     left: 1168px;
     opacity:0;
     transition: 0.1s ease
