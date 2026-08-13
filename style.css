@@ -440,8 +440,9 @@ p {
 /* ===== about me===== */
 .menu-aboutme-fake {
     top: 285px;
-    left: 882px;
-    z-index: 5001
+    left: 900px;
+    z-index: 5001;
+    opacity:0
 }
 .menu-aboutme-text span {
     position: absolute;
@@ -450,7 +451,8 @@ p {
     font-weight: 900;
     font-size: 255px;
     white-space: nowrap; 
-    opacity:0
+    opacity:0;
+    transition:0.3s ease;
 }
 .about {
     top:597px;
