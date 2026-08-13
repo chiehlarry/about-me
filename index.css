@@ -99,7 +99,7 @@ p {
     width: 1920px;   /* 你 Figma 畫布的寬 */
     height: 1080px;   /* 你 Figma 畫布的高 */
     transform: translate(-50%, -50%);
-    z-index: 5001;
+    z-index: 4999;
 }
 
 .biggest-paint {
@@ -208,7 +208,7 @@ p {
     width: 1920px;   /*  Figma 畫布的寬 */
     height: 1080px;   /*  Figma 畫布的高 */
     transform: translate(-50%, -50%);
-    z-index: 4999;
+    z-index: 5001;
 }
 
 .menu-option a {
