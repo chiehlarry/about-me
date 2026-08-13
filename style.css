@@ -53,8 +53,7 @@ p {
     white-space: nowrap;
 }
 .side-bar img {
-    position:absolute;
-    inset:0;
+    width:374px;
     padding-top:10px;
     opacity:0;
     transition:0.3s ease;
@@ -75,7 +74,6 @@ p {
     width: 328px;
     height: 66px;
     transition: 0.3s ease;
-    position:relative;
 }
 
 .side-about-me:hover {
