@@ -70,12 +70,19 @@
 }
 .magic {
     position:relative;
-    padding-bottom: 96px;
+    padding-bottom: 74px;
 }
 .example {
     position:absolute;
     top:1000px;
-    left:124px;
+    left:125px;
     display:flex;
     gap:64px;
+}
+.magicthing {
+    position:absolute;
+    top:1958px;
+    left:125px;
+    display: flex;
+    gap:0;
 }
