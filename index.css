@@ -37,7 +37,7 @@ p {
     background:#E3BC45;
     right:-492px;
     z-index:9997;
-    visibilty:hidden;
+    visibility:hidden;
     transition: right 0.3s ease, visibility 0s linear 0s;
 }
 .side-bar p {
