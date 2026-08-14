@@ -36,3 +36,17 @@
 }
 
 /* ===== element===== */
+.element {
+    display:flex;
+    flex-direction: column;
+    gap:0;
+}
+.logo {
+    position:relative;
+    padding:0 165 200 165;
+}
+.logo-01 {
+    position:absolute;
+    top:200px;
+    left:165px;
+}
