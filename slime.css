@@ -72,10 +72,10 @@
 .magic {
     position:relative;
     padding-bottom: 74px;
-    height:1534px;/* ===== fake absolute支撐用===== */
 }
 .example {
     position:absolute;
+    height:342px;/* ===== fake absolute支撐用===== */
     top:1000px;
     left:125px;
     display:flex;
@@ -83,6 +83,7 @@
 }
 .magicthing {
     position:absolute;
+    height:583px;/* ===== fake absolute支撐用===== */
     top:1958px;
     left:125px;
     display: flex;
