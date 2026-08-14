@@ -47,6 +47,19 @@
 }
 .logo-01 {
     position:absolute;
+    width:555px;
     top:200px;
     left:165px;
+}
+.logo-02 {
+    position:absolute;
+    width:421px;
+    top:200px;
+    left:826px;
+}
+.logo-03 {
+    position:absolute;
+    width:421px;
+    top:200px;
+    left:1338px;
 }
