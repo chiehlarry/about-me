@@ -9,7 +9,7 @@
     color:#B94342;
 }
 
-/* ===== 側邊選單:對應改色 ===== */
+/* ===== cover ===== */
 .cover {
     position:relative;
     width:1920px;
@@ -25,3 +25,14 @@
     position:absolute;
     right:0;
 }
+
+/* ===== intro===== */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-item: center;
+    top:0;
+    gap:102px;
+}
+
+/* ===== element===== */
