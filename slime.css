@@ -39,8 +39,6 @@
 .element {
     display:flex;
     flex-direction: column;
-    padding-left:165px;
-    padding-right: 165px;
 }
 .logo {
     position:relative;
