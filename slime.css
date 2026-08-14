@@ -44,6 +44,7 @@
 .logo {
     position:relative;
     padding-bottom:  200px;
+    height:65px;/* ===== fake absolute支撐用===== */
 }
 .logo-01 {
     position:absolute;
@@ -72,6 +73,7 @@
 .magic {
     position:relative;
     padding-bottom: 74px;
+    height:1534px;/* ===== fake absolute支撐用===== */
 }
 .example {
     position:absolute;
