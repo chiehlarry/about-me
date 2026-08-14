@@ -11,16 +11,14 @@
 
 /* ===== 側邊選單:對應改色 ===== */
 .cover {
-    width:1920px;
-    height:1109px;
-    position:relative;
+    display:flex;
 }
+
 .cover-logo {
     position:absolute;
-    top:211px;
-    left:130px;
+    padding:211px 123px 211px 130px;
 }
 .cover-img {
-    position:absolute;
-    left:1223px;
+    top:0;
+    right:0;
 }
