@@ -8,3 +8,19 @@
 .side-bar div:hover p {
     color:#B94342;
 }
+
+/* ===== 側邊選單:對應改色 ===== */
+.cover {
+    width:1920px;
+    height:1109px;
+    position:relative;
+}
+.cover-logo {
+    position:absolute;
+    top:211px;
+    left:130px;
+}
+.cover-img {
+    position:absolute;
+    left:1223px;
+}
