@@ -17,6 +17,7 @@
 .cover-logo {
     position:absolute;
     padding:211px 123px 211px 130px;
+    max-width: 100% + height: auto
 }
 .cover-img {
     top:0;
