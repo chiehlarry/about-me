@@ -39,11 +39,12 @@
 .element {
     display:flex;
     flex-direction: column;
-    gap:0;
+    padding-left:165px;
+    padding-right: 165px;
 }
 .logo {
     position:relative;
-    padding:0 165 200 165;
+    padding-bottom:  200px;
 }
 .logo-01 {
     position:absolute;
@@ -68,4 +69,15 @@
     padding:10px;
     top:679px;
     left:793px;
+}
+.magic {
+    position:relative;
+    padding-bottom: 96px;
+}
+.example {
+    position:absolute;
+    top:1000px;
+    left:124px;
+    display:flex;
+    gap:64px;
 }
