@@ -30,7 +30,7 @@
 .intro {
     display: flex;
     flex-direction: column;
-    align-item: center;
+    align-items: center;
     top:0;
     gap:102px;
 }
@@ -39,6 +39,7 @@
 .element {
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 .logo {
     position:relative;
@@ -77,6 +78,7 @@
     top:1000px;
     left:125px;
     display:flex;
+    align-items: center;
     gap:64px;
 }
 .magicthing {
@@ -84,5 +86,6 @@
     top:1958px;
     left:125px;
     display: flex;
+    align-items: center;
     gap:0;
 }
