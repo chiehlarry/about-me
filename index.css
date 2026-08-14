@@ -37,7 +37,8 @@ p {
     background:#E3BC45;
     right:-492px;
     z-index:9997;
-    transition: 0.3s ease;
+    visibilty:hidden;
+    transition: right 0.3s ease, visibility 0s linear 0s;
 }
 .side-bar p {
     color:#fff;
@@ -53,6 +54,8 @@ p {
 
 .side-bar.open {
     right:0;
+    visibility:visible;
+    transition:visibility 0s linear 0.3s
 }
 .side-bar-option {
     display:flex;
