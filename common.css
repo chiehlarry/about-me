@@ -94,6 +94,7 @@ p {
 /* ===== footer ===== */
 .footer div{
     position:relative;
+    overflow: hidden;
 }
 .footer p {
     font-size: 30px;
