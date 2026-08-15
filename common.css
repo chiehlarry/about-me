@@ -72,6 +72,20 @@ p {
     opacity:1;
 }
 /* ===== footer ===== */
+.scroll-zoom-frame {
+    overflow: hidden;
+}
+.scroll-zoom-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.25);
+    transition: transform 0.8s ease;
+}
+.scroll-zoom-frame img.in-view {
+    transform: scale(1);
+}
+/* ===== footer ===== */
 .footer div{
     position:relative;
 }
