@@ -99,10 +99,14 @@ p {
 .footer svg {
     position: absolute;
     transform: translate(-2500px,-1000px);
-    transition: 4s ease;
 }
+@keyframes footer-line-in {
+    from{transform:translate(-2500px,-1000px)}
+    to{transform: translate(0,0);}
+}
+
 .footer:hover svg {
-    transform: translate(0,0);
+    animation: footer-line-in 2s ease infinite;
 }
 .footer path {
     stroke:#fff
