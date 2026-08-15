@@ -99,7 +99,26 @@ p {
     height:174px;
     transition: 0.3s ease;
 }
+.line01 { top: 349px; left: 1971px;}
+.line02 { top: 662px; left: 2214px;}
+.line03 { top: 296px; left: 1674px;}
+.line04 { top: 412px; left: 1584px;}
+.line05 { top: 272px; left: 1213px;}
+.line06 { top: 725px; left: 1770px;}
+.line07 { top: 556px; left: 1338px;}
+.line08 { top: 716px; left: 1379px;}
+.line09 { top: 666px; left: 1133px;}
+.line10 { top: 656px; left: 960px;}
+.line11 { top: 947px; left: 1355px;}
+.line12 { top: 947px; left: 1070px;}
 .footer p {
+    font-size: 30px;
+    word-spacing: 2;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
     transition: 0.3s ease;
 }
 .footer svg {
@@ -114,6 +133,19 @@ p {
 .footer:hover svg {
     animation: footer-line-in 1.5s ease infinite;
 }
+
+.footer:hover .line02 {animation-delay: 0.2s;}
+.footer:hover .line03 {animation-delay: 0.5s;}
+.footer:hover .line04 {animation-delay: 0.8s;}
+.footer:hover .line05 {animation-delay: 0.4s;}
+.footer:hover .line06 {animation-delay: 0.55s;}
+.footer:hover .line07 {animation-delay: 0.3s;}
+.footer:hover .line08 {animation-delay: 0.3s;}
+.footer:hover .line09 {animation-delay: 0.2s;}
+.footer:hover .line10 {animation-delay: 0.7s;}
+.footer:hover .line11 {animation-delay: 0.4s;}
+.footer:hover .line12 {animation-delay: 0.6s;}
+
 .footer:hover div {
     height:200px;
     margin-top: -26px;
@@ -123,26 +155,4 @@ p {
 }
 .footer path {
     stroke:#fff
-}
-.line01 { top: 349px; left: 1971px;}
-.line02 { top: 662px; left: 2214px;animation-delay: 0.2s;}
-.line03 { top: 296px; left: 1674px;animation-delay: 0.5s;}
-.line04 { top: 412px; left: 1584px;animation-delay: 0.8s;}
-.line05 { top: 272px; left: 1213px;animation-delay: 0.4s;}
-.line06 { top: 725px; left: 1770px;animation-delay: 0.55s;}
-.line07 { top: 556px; left: 1338px;animation-delay: 0.3s;}
-.line08 { top: 716px; left: 1379px;animation-delay: 0.3s;}
-.line09 { top: 666px; left: 1133px;animation-delay: 0.2s;}
-.line10 { top: 656px; left: 960px;animation-delay: 0.7s;}
-.line11 { top: 947px; left: 1355px;animation-delay: 0.4s;}
-.line12 { top: 947px; left: 1070px;animation-delay: 0.7s;}
-
-.footer p {
-    font-size: 30px;
-    word-spacing: 2;
-    font-weight: 900;
-    color: #fff;
-    position: absolute;
-    bottom: 25px;
-    right: 50px;
 }
