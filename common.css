@@ -95,6 +95,7 @@ p {
 .footer div{
     position:relative;
     overflow: hidden;
+    transition: 0.3s ease;
 }
 .footer svg {
     position: absolute;
@@ -107,6 +108,12 @@ p {
 
 .footer:hover svg {
     animation: footer-line-in 0.8s ease infinite;
+}
+.footer:hover div {
+    height:200px;
+}
+.footer:hover p {
+    font-size: 36px;
 }
 .footer path {
     stroke:#fff
