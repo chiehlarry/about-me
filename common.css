@@ -96,6 +96,30 @@ p {
     position:relative;
     overflow: hidden;
 }
+.footer svg {
+    position: absolute;
+    transform: translate(-1000px,-2500px);
+    transition: 0.8s ease;
+}
+.footer:hover svg {
+    transform: translate(0,0);
+}
+.footer path {
+    stroke:#fff
+}
+.line01 { top: 349px; left: 1971px;}
+.line02 { top: 662px; left: 2214px;}
+.line03 { top: 296px; left: 1674px;}
+.line04 { top: 412px; left: 1584px;}
+.line05 { top: 272px; left: 1213px;}
+.line06 { top: 725px; left: 1770px;}
+.line07 { top: 556px; left: 1338px;}
+.line08 { top: 716px; left: 1379px;}
+.line09 { top: 666px; left: 1133px;}
+.line10 { top: 656px; left: 960px;}
+.line11 { top: 947px; left: 1355px;}
+.line12 { top: 947px; left: 1070px;}
+
 .footer p {
     font-size: 30px;
     word-spacing: 2;
