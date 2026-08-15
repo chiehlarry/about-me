@@ -123,10 +123,10 @@ p {
 }
 .footer svg {
     position: absolute;
-    transform: translate(-2500px,-1000px);
+    transform: translate(-1750px,-1500px);
 }
 @keyframes footer-line-in {
-    from{transform:translate(-2500px,-1000px)}
+    from{transform:translate(-1750px,-1500px)}
     to{transform: translate(0,0);}
 }
 
