@@ -27,7 +27,7 @@
 }
 
 p {
-    line-height: 1.3;
+    line-height: 1.3; font-family: "M PLUS Rounded 1c"
 }
 /* ===== 側邊選單 ===== */
 .side-bar {
