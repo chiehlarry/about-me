@@ -98,8 +98,8 @@ p {
 }
 .footer svg {
     position: absolute;
-    transform: translate(-1000px,-2500px);
-    transition: 0.8s ease;
+    transform: translate(-2500px,-1000px);
+    transition: 4s ease;
 }
 .footer:hover svg {
     transform: translate(0,0);
