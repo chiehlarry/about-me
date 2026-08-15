@@ -1,5 +1,9 @@
-const canvas = document.querySelector('.canvas');
-canvas.style.zoom = window.innerWidth / 1920;
+function updateZoom() {
+    const canvas = document.querySelector('.canvas');
+    canvas.style.zoom = window.innerWidth / 1920;
+}
+window.addEventListener('resize', updateZoom);
+updateZoom();
 
 //sidebar
 const sidebar = document.querySelector('.side-bar');
