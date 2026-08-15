@@ -19,6 +19,6 @@ const observer = new IntersectionObserver((entries) => {
             observer.unobserve(entry.target);   // 只觸發一次，不用每次滾過去都重跑
         }
     });
-}, { threshold: 0.1 });   // 圖片露出 30% 就觸發，這個比例你可以自己調整
+}, { threshold: 0.05 });  
 
 zoomimages.forEach(img => observer.observe(img));
