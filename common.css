@@ -116,6 +116,7 @@ p {
 }
 .footer:hover div {
     height:200px;
+    margin-top: -26px;
 }
 .footer:hover p {
     font-size: 36px;
