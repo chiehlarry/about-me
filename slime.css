@@ -26,6 +26,19 @@
     right:0;
 }
 
+.cover-text01{
+    position:absolute;
+    text-align: right;
+    top:696px;
+    left:198px;
+}
+.cover-text02 {
+    position: absolute;
+    text-align: right;
+    top: 726px;
+    left: 198px;
+}
+
 /* ===== intro===== */
 .intro {
     display: flex;
