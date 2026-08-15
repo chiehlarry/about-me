@@ -1,0 +1,43 @@
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#586796;
+}
+.side-bar {
+  background:#586796;
+}
+.side-bar div:hover p {
+    color:#586796;
+}
+/* ===== 標題底線顏色 ===== */
+.contain-head {
+    border-bottom: 5px solid #586796;
+}
+
+/* ===== cover ===== */
+.cover {
+    position:relative;
+    width:1920px;
+    height:1109px;
+}
+
+.cover-logo {
+    position:absolute;
+    top:211px;
+    left:130px;
+}
+.cover-img {
+    position:absolute;
+    right:0;
+}
+
+.cover-text01{
+    position:absolute;
+    top:696px;
+    right:912px;
+    padding-bottom: 20px;
+}
+.cover-text02 {
+    position: absolute;
+    top: 726px;
+    right: 912px;
+}
