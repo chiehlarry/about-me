@@ -106,7 +106,7 @@ p {
 }
 
 .footer:hover svg {
-    animation: footer-line-in 2s ease infinite;
+    animation: footer-line-in 0.8s ease infinite;
 }
 .footer path {
     stroke:#fff
