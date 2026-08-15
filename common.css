@@ -17,7 +17,7 @@
 }
 p {
     line-height: 1.5;
-    color:#000; font-size:20px; font-family:Helvetica; letter-spacing: 2px
+    color:#000; font-size:20px; font-family:Helvetica; letter-spacing: 5px; font-weight: 500;
 }
 /* ===== 側邊選單 ===== */
 .side-bar {
