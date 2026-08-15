@@ -70,7 +70,9 @@
     left:793px;
 }
 .magic {
-    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 74px;
 }
 .example {
