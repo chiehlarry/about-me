@@ -59,7 +59,8 @@
 .logo {
     position:relative;
     padding-bottom:  200px;
-    height:600px;/* ===== fake absolute支撐用===== */
+    height:650px;/* ===== fake absolute支撐用===== */
+    margin-top: -100px;
 }
 .logo-01 {
     position:absolute;
