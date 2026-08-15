@@ -43,7 +43,7 @@
 .logo {
     position:relative;
     padding-bottom:  200px;
-    height:65px;/* ===== fake absolute支撐用===== */
+    height:650px;/* ===== fake absolute支撐用===== */
 }
 .logo-01 {
     position:absolute;
@@ -74,18 +74,14 @@
     padding-bottom: 74px;
 }
 .example {
-    position:absolute;
-    height:342px;/* ===== fake absolute支撐用===== */
-    top:1000px;
-    left:125px;
+    padding-left: 125px;
+    margin-top: 100px;
     display:flex;
     gap:64px;
 }
 .magicthing {
-    position:absolute;
-    height:583px;/* ===== fake absolute支撐用===== */
-    top:1958px;
-    left:125px;
+    padding-top: 125px;
+    margin-top: 150px;
     display: flex;
     gap:0;
 }
