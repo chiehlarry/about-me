@@ -44,7 +44,7 @@
 }
 
 /* ===== intro===== */
-.showpoem {
+.show-poem {
     display: flex;
     flex-direction: column;
     gap:200px;
@@ -119,6 +119,8 @@
     top:1087px;
     left:161px;
     text-align: left;
+    margin-top:0;
+    padding-left: 0;
 }
 .structure-text {
     width:490px;
