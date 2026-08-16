@@ -24,7 +24,7 @@
     position:absolute;
     top:301px;
     left:271px;
-    width:90%;
+    transform:scale(0.9);
 }
 .cover-img {
     position:absolute;
@@ -41,4 +41,32 @@
     position: absolute;
     top: 798px;
     right: 912px;
+}
+/* ===== type ===== */
+.type {
+    display: flex;
+    flex-direction: column;
+    gap:90px;
+
+}
+.type p{
+    position: absolute;
+    top:627px;
+    left:73px;
+}
+
+
+/* ===== element ===== */
+.element {
+    position:relative;
+    height:2170px;
+}
+.castle {
+    position:absolute;
+    bottom:0;
+}
+.mountain {
+    position:absolute;
+    right: 0;
+    bottom: 0;
 }
