@@ -85,7 +85,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:1667px;
 }
 .element div {
     width:1667px;
@@ -94,11 +93,12 @@
     justify-content: space-between;
     margin: 130px 0 130px 0;
     padding:40px;
+    align-items: center;
 
 }
 .element .contain-head {
     margin-bottom:-110px;
-    padding-right: 100px;
+    padding-right: 1500px;
 }
 .typo01 p,.typo02 p,.typo03 p {
     width:450px;
