@@ -43,6 +43,11 @@
     right: 912px;
 }
 /* ===== intro ===== */
+.intro img {
+    position: absolute;
+    top:40px;
+    left:57px;
+}
 .questionnaire div {
     width:750px;
     background: #B0B4BA;
