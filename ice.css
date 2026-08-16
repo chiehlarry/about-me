@@ -72,6 +72,9 @@
     bottom: 0;
     margin-bottom: -10px;
 }
+.logo {
+    z-index: 5000;
+}
 .logo-01 {
     position: absolute;
     top:727px;
@@ -86,4 +89,5 @@
     position:absolute;
     top:603px;
     left:311px;
+    z-index: 5000;
 }
