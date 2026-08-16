@@ -27,7 +27,7 @@
 .cover-title {
     font-size: 96px;
     position: absolute;
-    top:871px;
+    top:820px;
     right:114px;
     line-height: 1;
 }
@@ -49,8 +49,9 @@
     flex-direction: column;
     gap:50px;
     align-items: center;
+    justify-content: center;
 }
-.poem01,.poem02 p{
+.poem01 p,.poem02 p{
     font-size: 25px;
     display:inline-block;
     border-top: 2px solid #888888;
@@ -84,6 +85,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width:1667px;
 }
 .element div {
     width:1667px;
@@ -95,10 +97,11 @@
 
 }
 .element .contain-head {
-    margin-bottom:-110px
+    margin-bottom:-110px;
+    padding-right: 100px;
 }
 .typo01 p,.typo02 p,.typo03 p {
-    width:890px;
+    width:450px;
     height:195px;
 }
 
@@ -115,6 +118,7 @@
     position: absolute;
     top:1087px;
     left:161px;
+    text-align: left;
 }
 .structure-text {
     width:490px;
