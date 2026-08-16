@@ -43,12 +43,38 @@
 }
 
 /* ===== intro===== */
-.intro {
+.showpoem {
     display: flex;
     flex-direction: column;
+    gap:50px;
     align-items: center;
-    top:0;
-    gap:102px;
+}
+.poem01,.poem02 p{
+    font-size: 25px;
+    display:inline-block;
+    border-top: 2px solid #888888;
+    padding-top: 10px;
+    margin-top:20px;
+}
+.endthing {
+    width:1920px;
+    height:1335px;
+    position: relative;
+}
+.endthing img:nth-child(1) {
+    position:absolute;
+    top:53px;
+    left:297px;
+}
+.endthing img:nth-child(2) {
+    position:absolute;
+    top:192px;
+    left:1131px;
+}
+.endthing img:nth-child(3) {
+    position:absolute;
+    top:724px;
+    left:473px;
 }
 
 /* ===== element===== */
@@ -56,51 +82,14 @@
     display:flex;
     flex-direction: column;
 }
-.logo {
-    position:relative;
-    padding-bottom:  200px;
-    height:650px;/* ===== fake absolute支撐用===== */
-    margin-top: -100px;
-}
-.logo-01 {
-    position:absolute;
-    width:555px;
-    top:200px;
-    left:165px;
-}
-.logo-02 {
-    position:absolute;
-    width:421px;
-    top:200px;
-    left:826px;
-}
-.logo-03 {
-    position:absolute;
-    width:421px;
-    top:200px;
-    left:1338px;
-}
-.logo p {
-    position:absolute;
-    padding:10px;
-    top:679px;
-    left:793px;
-}
-.magic {
+.element div {
+    width:1667px;
+    height:350px;
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 74px;
+    justify-content: space-between;
+    margin: 130px 0 130px 0;
+    padding:40px
 }
-.example {
-    justify-content: center;
-    margin-top: 20px;
-    display:flex;
-    gap:64px;
-}
-.magicthing {
-    justify-content: center;
-    margin-top: 50px;
-    display: flex;
-    gap:0;
+.element .contain-head {
+    margin-bottom:-110px
 }
