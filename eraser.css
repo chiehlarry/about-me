@@ -51,6 +51,11 @@
     align-items: center;
     justify-content: center;
 }
+.poem01,.poem02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .poem01 p,.poem02 p{
     font-size: 30px;
     display:inline-block;
