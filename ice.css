@@ -22,8 +22,9 @@
 
 .cover-logo {
     position:absolute;
-    top:331px;
+    top:301px;
     left:271px;
+    width:90%;
 }
 .cover-img {
     position:absolute;
@@ -32,12 +33,12 @@
 
 .cover-text01{
     position:absolute;
-    top:696px;
+    top:768px;
     right:912px;
     padding-bottom: 20px;
 }
 .cover-text02 {
     position: absolute;
-    top: 726px;
+    top: 798px;
     right: 912px;
 }
