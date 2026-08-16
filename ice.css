@@ -64,9 +64,26 @@
 .castle {
     position:absolute;
     bottom:0;
+    margin-bottom: -10px;
 }
 .mountain {
     position:absolute;
     right: 0;
     bottom: 0;
+    margin-bottom: -10px;
+}
+.logo-01 {
+    position: absolute;
+    top:727px;
+    left:551px;
+}
+.logo p {
+    position: absolute;
+    top:1449px;
+    left:891px;
+}
+.element .contain-head {
+    position:absolute;
+    top:603px;
+    left:311px;
 }
