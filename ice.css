@@ -44,9 +44,10 @@
 }
 /* ===== intro ===== */
 .questionnaire div {
-    width:715px;
+    width:750px;
     background: #B0B4BA;
     border-radius: 25px;
+    padding:15px;
 }
 /* ===== type ===== */
 .type {
@@ -83,7 +84,7 @@
 }
 .logo-01 {
     position: absolute;
-    top:727px;
+    top:800px;
     left:551px;
 }
 .logo p {
