@@ -94,7 +94,7 @@
     justify-content: center;
 }
 .element div {
-    width:1667px;
+    width:1500px;
     height:350px;
     display:flex;
     justify-content: space-between;
@@ -107,6 +107,7 @@
     margin-bottom:-110px;
     padding-right: 1500px;
     padding-left: 0;
+    margin-left:150px
 }
 .typo01 p,.typo02 p,.typo03 p {
     width:450px;
