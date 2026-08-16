@@ -42,6 +42,12 @@
     top: 798px;
     right: 912px;
 }
+/* ===== intro ===== */
+.questionnaire div {
+    width:715px;
+    background: #B0B4BA;
+    border-radius: 25px;
+}
 /* ===== type ===== */
 .type {
     position:relative;
