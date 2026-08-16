@@ -96,9 +96,13 @@
     align-items: center;
 
 }
+.element img {
+    transform:scale(1.2)
+}
 .element .contain-head {
     margin-bottom:-110px;
     padding-right: 1500px;
+    padding-left: 0;
 }
 .typo01 p,.typo02 p,.typo03 p {
     width:450px;
@@ -116,7 +120,7 @@
 }
 .structure .contain-head {
     position: absolute;
-    top:1087px;
+    top:1137px;
     left:161px;
     text-align: left;
     margin-top:0;
