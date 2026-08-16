@@ -63,17 +63,17 @@
     height:1335px;
     position: relative;
 }
-.endthing img:nth-child(1) {
+.endthing div:nth-child(1) {
     position:absolute;
     top:53px;
     left:297px;
 }
-.endthing img:nth-child(2) {
+.endthing div:nth-child(2) {
     position:absolute;
     top:192px;
     left:1131px;
 }
-.endthing img:nth-child(3) {
+.endthing div:nth-child(3) {
     position:absolute;
     top:724px;
     left:473px;
