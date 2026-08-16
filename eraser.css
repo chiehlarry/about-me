@@ -103,9 +103,6 @@
     align-items: center;
 
 }
-.element img {
-    transform:scale(1.2)
-}
 .element .contain-head {
     margin-bottom:-110px;
     padding-right: 1500px;
