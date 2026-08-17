@@ -138,7 +138,7 @@
     top:1205px;
     left:161px;
 }
-.memo01 .memo02 .memo03 {
+.memo01,.memo02,.memo03 {
     position: absolute;
     transform: rotate(-32deg);
 }

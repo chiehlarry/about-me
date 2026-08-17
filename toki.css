@@ -1,0 +1,71 @@
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#529D7F;
+}
+.side-bar {
+  background:#529D7F;
+}
+.side-bar div:hover p {
+    color:#529D7F;
+}
+/* ===== 標題底線顏色 ===== */
+.contain-head {
+    border-bottom: 5px solid #529D7F;
+}
+
+/* ===== cover ===== */
+.cover {
+    position:relative;
+    width:1920px;
+    height:1109px;
+}
+
+.cover-img {
+    position:absolute;
+    top:128px;
+}
+.cover-title {
+    font-size: 96px;
+    position: absolute;
+    top:820px;
+    right:114px;
+    line-height: 1;
+}
+.cover-text01{
+    position:absolute;
+    top:959px;
+    right:114px;
+    padding-bottom: 20px;
+}
+.cover-text02 {
+    position: absolute;
+    top: 989px;
+    right: 114px;
+}
+
+/* ===== intro===== */
+
+
+/* ===== element===== */
+.element {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.element div {
+    width:1500px;
+    height:350px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding:40px;
+    align-items: center;
+
+}
+.element .contain-head {
+    margin-bottom:-110px;
+    padding-right: 1500px;
+    padding-left: 0;
+    margin-left:150px
+}
