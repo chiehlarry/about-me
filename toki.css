@@ -44,7 +44,6 @@
 }
 
 /* ===== intro===== */
-<<<<<<< HEAD
 .intro {
     display: flex;
     flex-direction: column;
@@ -81,17 +80,6 @@
 }
 
 
-=======
-.intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top:0;
-}
-.gallery{
-    position:relative;
-}
->>>>>>> 971608eed0418f180235384b9096dc8a4ca5ab8f
 /* ===== element===== */
 .element {
     display:flex;
