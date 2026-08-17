@@ -90,25 +90,24 @@
 .up-img {
     position: relative;
 }
+.up-img img {
+    position:absolute;
+    top:148px;
+    left:280px;
+}
 .up-img p {
     writing-mode: vertical-lr;
     position: absolute;
 }
-.up-img p:nth-child(1) {
+.up-img p:nth-child(2) {
     top:229px;
     left:165px;
 }
-.up-img p:nth-child(2) {
+.up-img p:nth-child(3) {
     top:744px;
     left:165px;
 }
-.up-img p:nth-child(3) {
+.up-img p:nth-child(4) {
     top:1272px;
     left:165px;
-}
-.element .contain-head {
-    margin-bottom:-110px;
-    padding-right: 1500px;
-    padding-left: 0;
-    margin-left:150px
 }
