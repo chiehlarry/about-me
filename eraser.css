@@ -138,3 +138,24 @@
     top:1205px;
     left:161px;
 }
+.memo01 .memo02 .memo03 {
+    position: absolute;
+    transform: rotate(-32deg);
+}
+.memo01 {
+    top:789px;
+    left:1027.5px;
+}
+.memo02 {
+    top:640px;
+    left:1333.5px;
+}
+.memo03 {
+    top:494px;
+    left:1639.5px;
+}
+.memo04 {
+    position:absolute;
+    top:1408px;
+    left:1639px;
+}
