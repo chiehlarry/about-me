@@ -44,8 +44,15 @@
 }
 
 /* ===== intro===== */
-
-
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:0;
+}
+.gallery{
+    position:relative;
+}
 /* ===== element===== */
 .element {
     display:flex;
