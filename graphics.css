@@ -60,11 +60,16 @@
     height:700px;
     padding:80px 0 80px 0;
     border-bottom: 2px solid #ADC8C3;
+    position: relative;
 }
 .work-text {
     display: flex;
     flex-direction: column;
     gap:15px;
+    position:absolute;
+}
+.scroll-zoom-frame {
+    position: absolute;
 }
 
 
