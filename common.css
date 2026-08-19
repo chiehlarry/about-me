@@ -5,6 +5,7 @@
     left: 0;
     width: 1920px;
     transform-origin: top left;
+    overflow: hidden;
 }
 .menu {
     position: fixed;
