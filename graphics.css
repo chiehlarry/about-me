@@ -1,0 +1,101 @@
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#ADC8C3;
+}
+.side-bar {
+  background:#ADC8C3;
+}
+.side-bar div:hover p {
+    color:#ADC8C3;
+}
+/* ===== 標題底線顏色 ===== */
+.contain-head {
+    border-bottom: 5px solid #ADC8C3;
+}
+
+/* ===== cover ===== */
+.cover {
+    position:relative;
+    width:1920px;
+    height:1109px;
+}
+
+.cover-img {
+    position:absolute;
+    top:128px;
+}
+.cover-title {
+    font-size: 96px;
+    position: absolute;
+    top:820px;
+    right:114px;
+    line-height: 1;
+}
+.cover-text01{
+    position:absolute;
+    top:959px;
+    right:114px;
+    padding-bottom: 20px;
+}
+.cover-text02 {
+    position: absolute;
+    top: 989px;
+    right: 114px;
+}
+
+/* =====background===== */
+.background {
+    position: absolute;
+    top:-387px;
+    left:1385px;
+}
+
+/* =====works===== */
+.works {
+    display: flex;
+    flex-direction: column;
+}
+.works div {
+    width:1920px;
+    height:700px;
+    padding:80px 0 80px 0;
+    border-bottom: 2px solid #ADC8C3;
+}
+.work-text {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+
+/* ===== element===== */
+.element {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.up-img {
+    position: relative;
+}
+.up-img img {
+    position:absolute;
+    top:148px;
+    left:280px;
+}
+.up-img p {
+    writing-mode: vertical-lr;
+    position: absolute;
+}
+.up-img p:nth-child(2) {
+    top:229px;
+    left:165px;
+}
+.up-img p:nth-child(3) {
+    top:744px;
+    left:165px;
+}
+.up-img p:nth-child(4) {
+    top:1272px;
+    left:165px;
+}
