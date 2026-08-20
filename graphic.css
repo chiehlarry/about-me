@@ -104,10 +104,6 @@
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0s;
 }
-.title p:nth-child(1) {
-    font-size: 50px;
-}
-
 .modal-card.open {
     visibility: visible;
     opacity: 1;
@@ -122,6 +118,9 @@
     position: absolute;
     top:85px;
     left:85px;
+}
+.title p:nth-child(1) {
+    font-size: 50px;
 }
 .videoframe {
     position: relative;
