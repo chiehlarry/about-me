@@ -77,31 +77,45 @@
 
 
 /* ===== intro===== */
-.introduction > div {
-    position: relative;
+.modal-mask {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9998;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+.modal-mask.open {
+    visibility: visible;
+    opacity: 0.4;
+    transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+
+.modal-card {
+    position: fixed;
+    z-index: 9998;
     width:1700px;
     height:1000px;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0s;
 }
-.introduction > div.open {
+.modal-card.open {
     visibility: visible;
     opacity: 1;
     transition:opacity 0.3s ease, visibility 0s;
 }
-.introduction svg {
+.modal-card svg {
     position: absolute;
     top:35px;
     right:35px;
 }
-
-.introduction .title {
+.modal-card .title {
     position: absolute;
     top:85px;
     left:85px;
 }
-
 .videoframe {
     position: relative;
     aspect-ratio: 16/9;

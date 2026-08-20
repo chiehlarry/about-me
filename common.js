@@ -24,9 +24,24 @@ const observer = new IntersectionObserver((entries) => {
 zoomimages.forEach(img => observer.observe(img));
 
 //詳細說明
-const intro = document.querySelector('.introduction > div');
+const intro = document.querySelector('.modal-card');
 const trigger = document.querySelector('.works img');
 
-trigger.addEventListener('click', () => { intro.classList.add('open')});
+document.querySelectorAll('[data-modal]').forEach(trigger => {
+    trigger.addEventListener('click', () => {
+        document.getElementById(trigger.dataset.modal).classList.add('open');
+        document.querySelector('.modal-mask').classList.add('open');
+    });
+});
 
-document.querySelector('.introsuction .close').addEventListener('click', () => {intro.classList.remove('open')});
+document.querySelectorAll('.modal-card .close').forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.closest('.modal-card').classList.remove('open');
+        document.querySelector('.modal-mask').classList.remove('open');
+    });
+});
+
+document.querySelector('.modal-mask').addEventListener('click', () => {
+    document.querySelectorAll('.modal-card.open').forEach(c => c.classList.remove('open'));
+    document.querySelector('.modal-mask').classList.remove('open');
+});
