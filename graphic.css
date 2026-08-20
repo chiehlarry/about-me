@@ -76,7 +76,23 @@
 }
 
 
-/* ===== element===== */
+/* ===== intro===== */
+.introduction > div {
+    position: relative;
+}
+.introduction svg {
+    position: absolute;
+    top:35px;
+    right:35px;
+}
+
+.introduction .title {
+    position: absolute;
+    top:85px;
+    left:85px;
+}
+
+
 .videoframe {
     position: relative;
     aspect-ratio: 16/9;
