@@ -22,3 +22,11 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.05 });  
 
 zoomimages.forEach(img => observer.observe(img));
+
+//詳細說明
+const intro = document.querySelector('.introduction > div');
+const trigger = document.querySelector('.works img');
+
+trigger.addEventListener('click', () => { intro.classList.add('open')});
+
+document.querySelector('.introsuction .close').addEventListener('click', () => {intro.classList.remove('open')});

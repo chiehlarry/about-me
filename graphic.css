@@ -79,6 +79,16 @@
 /* ===== intro===== */
 .introduction > div {
     position: relative;
+    width:1700px;
+    height:1000px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s;
+}
+.introduction > div.open {
+    visibility: visible;
+    opacity: 1;
+    transition:opacity 0.3s ease, visibility 0s;
 }
 .introduction svg {
     position: absolute;
