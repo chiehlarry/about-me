@@ -103,7 +103,6 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0s;
-    color:#fff
 }
 .modal-card.open {
     visibility: visible;
@@ -120,6 +119,10 @@
     top:85px;
     left:85px;
 }
+.modal-card p {
+    color: #fff;
+}
+
 .title p:nth-child(1) {
     font-size: 50px;
 }
