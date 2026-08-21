@@ -103,6 +103,7 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0s;
+    color:#fff
 }
 .modal-card.open {
     visibility: visible;
