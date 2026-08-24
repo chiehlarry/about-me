@@ -171,7 +171,7 @@
 
 .card-list p:nth-child(1) {
     top:80px;
-    left:168px;
+    left:0px;
 }
 .card-list p:nth-child(2) {
     top:160px;
