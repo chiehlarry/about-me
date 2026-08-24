@@ -116,12 +116,12 @@
     top:69px;
     left:140px;
 }
-.base p:nth-child(1) {
+.base p:nth-child(2) {
     position: absolute;
     top:544px;
     left:144px;
 }
-.base p:nth-child(2) {
+.base p:nth-child(3) {
     position:absolute;
     top:156px;
     left:1200px;
@@ -136,15 +136,15 @@
     writing-mode: vertical-lr;
     position: absolute;
 }
-.three-card p:nth-child(1){
+.three-card p:nth-child(4){
     top:95px;
     left:144px;
 }
-.three-card p:nth-child(2){
+.three-card p:nth-child(5){
     top:95px;
     left:716px;
 }
-.three-card p:nth-child(3){
+.three-card p:nth-child(6){
     top:95px;
     left:1321px;
 }
@@ -182,6 +182,7 @@
     display:grid;
     grid-template-columns: repeat(7,1fr);
     gap:20px;
+    padding:50px;
 }
 
 .card-grid img:hover {
