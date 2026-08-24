@@ -218,10 +218,10 @@
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0s;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     padding: 50px;
-    gap:20px;
+    gap:50px;
 }
 .modal-card.open {
     visibility: visible;
