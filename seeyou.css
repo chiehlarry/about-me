@@ -189,3 +189,52 @@
     transform: scale(1.2);
     transition: 0.3s ease;
 }
+
+/* ===== modal-card ===== */
+.modal-mask {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9998;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+.modal-mask.open {
+    visibility: visible;
+    opacity: 0.65;
+    transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+.modal-card {
+    position: fixed;
+    z-index: 9998;
+    width:1700px;
+    height:1000px;
+    background: #919A5C;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s;
+    display: flex;
+    align-items: center;
+}
+.modal-card.open {
+    visibility: visible;
+    opacity: 1;
+    transition:opacity 0.3s ease, visibility 0s;
+}
+.modal-card svg {
+    position: absolute;
+    top:35px;
+    right:35px;
+}
+.modal-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.modal-card .title {
+    font-size: 25px;
+}
