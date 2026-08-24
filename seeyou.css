@@ -1,0 +1,161 @@
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#919A5C;
+}
+.side-bar {
+  background:#919A5C;
+}
+.side-bar div:hover p {
+    color:#919A5C;
+}
+/* ===== 標題底線顏色 ===== */
+.contain-head {
+    border-bottom: 5px solid #919A5C;
+}
+
+/* ===== cover ===== */
+.cover {
+    position:relative;
+    width:1920px;
+    height:1109px;
+}
+
+.cover-logo {
+    position:absolute;
+    top:211px;
+    left:130px;
+}
+.cover-img {
+    position:absolute;
+    right:0;
+}
+
+.cover-text01{
+    position:absolute;
+    top:696px;
+    right:912px;
+    padding-bottom: 20px;
+}
+.cover-text02 {
+    position: absolute;
+    top: 726px;
+    right: 912px;
+}
+
+/* ===== intro ===== */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.invatation {
+    height:850px;
+    position: relative;
+}
+.invatation img:nth-child(1) {
+    position: absolute;
+    top:50px;
+    left:138px;
+}
+.invatation img:nth-child(2) {
+    position: absolute;
+    top:50px;
+    left:1163px;
+}
+.invatation p {
+    width:617px;
+    position: absolute;
+    top:577px;
+    left:1163px;
+}
+
+.teaser {
+    height:720px;
+    position:relative
+}
+.teaser img {
+    position: absolute;
+    top:86px;
+    left:1163px;
+}
+.teaser p {
+    width:617px;
+    position:absolute;
+    top:413px;
+    left:1163px;
+}
+.videoframe {
+    position: relative;
+    aspect-ratio: 16/9;
+}
+.videoframe iframe{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    border:0;
+    top: 0;
+    left: 0;
+}
+
+/* ===== card ===== */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.base {
+    height:614px;
+    position: relative;
+}
+.base img {
+    position: absolute;
+    top:69px;
+    left:140px;
+}
+.base p:nth-child(1) {
+    position: absolute;
+    top:544px;
+    left:144px;
+}
+.base p:nth-child(2) {
+    position:absolute;
+    top:156px;
+    left:1200px;
+}
+
+.three-card {
+    height:727px;
+    position: relative;
+}
+.three-card p{
+    writing-mode: vertical-lr;
+    position: absolute;
+}
+.three-card p:nth-child(1){
+    top:95px;
+    left:144px;
+}
+.three-card p:nth-child(2){
+    top:95px;
+    left:716px;
+}
+.three-card p:nth-child(3){
+    top:95px;
+    left:1321px;
+}
+.three-card img {
+    position: absolute;
+}
+.three-card img:nth-child(1) {
+    top:95px;
+    left:212px;
+}
+.three-card img:nth-child(2) {
+    top:95px;
+    left:794px;
+}
+.three-card img:nth-child(3) {
+    top:95px;
+    left:1391px;
+}
