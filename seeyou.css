@@ -219,6 +219,8 @@
     transition: opacity 0.3s ease, visibility 0s;
     display: flex;
     align-items: center;
+    padding: 50px;
+    color: #fff;
 }
 .modal-card.open {
     visibility: visible;
