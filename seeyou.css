@@ -175,7 +175,7 @@
 }
 .card-list p:nth-child(2) {
     top:160px;
-    left:1000px;
+    right:80px;
 }
 
 .card-grid {
