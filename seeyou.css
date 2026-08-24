@@ -159,3 +159,22 @@
     top:95px;
     left:1391px;
 }
+
+/* ===== card-list ===== */
+.card-list p{
+    position: absolute;
+}
+
+.card-list p:nth-child(1) {
+    top:155px;
+    left:168px;
+}
+.card-list p:nth-child(2) {
+    top:230px;
+    left:1212px;
+}
+
+.card-flex {
+    display:flex;
+    
+}
