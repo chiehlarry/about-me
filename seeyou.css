@@ -182,7 +182,7 @@
     display:grid;
     grid-template-columns: repeat(7,1fr);
     gap:20px;
-    padding:50px;
+    padding:50px 150px 50px 150px;
 }
 
 .card-grid img:hover {
