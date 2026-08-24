@@ -220,6 +220,7 @@
     display: flex;
     align-items: center;
     padding: 50px;
+    gap:20px;
 }
 .modal-card.open {
     visibility: visible;
