@@ -253,4 +253,5 @@
 .modal-card .text {
     width:450px;
     height:110px;
+    align-self: center;
 }
