@@ -1,0 +1,128 @@
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#C93AA1;
+}
+.side-bar {
+  background:#C93AA1;
+}
+.side-bar div:hover p {
+    color:#C93AA1;
+}
+/* ===== 標題底線顏色 ===== */
+.contain-head {
+    border-bottom: 5px solid #C93AA1;
+}
+
+/* ===== cover ===== */
+.cover {
+    position:relative;
+    width:1920px;
+    height:1109px;
+}
+
+.cover-img {
+    position:absolute;
+    top:128px;
+}
+.cover-title {
+    font-size: 96px;
+    position: absolute;
+    top:820px;
+    right:114px;
+    line-height: 1;
+}
+.cover-text01{
+    position:absolute;
+    top:959px;
+    right:114px;
+    padding-bottom: 20px;
+}
+.cover-text02 {
+    position: absolute;
+    top: 989px;
+    right: 114px;
+}
+
+/* =====background===== */
+.background {
+    position: absolute;
+    top:1385px;
+    left:-387px;
+}
+
+/* =====works===== */
+.works {
+    display: flex;
+    flex-direction: column;
+}
+.works > div {
+    width:1920px;
+    height:600px;
+    padding:50px 0 50px 0;
+    border-bottom: 2px solid #C93AA1;
+    position: relative;
+}
+.work-text {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    position:absolute;
+}
+.work-text p:nth-child(1){
+    font-size: 30px;
+}
+.scroll-zoom-frame {
+    position: absolute;
+}
+
+
+/* ===== intro===== */
+.modal-mask {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9998;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+.modal-mask.open {
+    visibility: visible;
+    opacity: 0.65;
+    transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+.modal-card {
+    position: fixed;
+    z-index: 9998;
+    width:1700px;
+    height:1000px;
+    background: #F8EAF4;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s;
+}
+.modal-card.open {
+    visibility: visible;
+    opacity: 1;
+    transition:opacity 0.3s ease, visibility 0s;
+}
+.modal-card svg {
+    position: absolute;
+    top:35px;
+    right:35px;
+}
+.modal-card .title {
+    position: absolute;
+    top:85px;
+    left:85px;
+}
+.modal-card p {
+    color: #fff;
+}
+
+.title p:nth-child(1) {
+    font-size: 50px;
+}
