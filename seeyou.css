@@ -229,7 +229,7 @@
     transition:opacity 0.3s ease, visibility 0s;
 }
 .modal-card p{
-    color: #fff;
+    color: #444831;
 }
 .modal-card svg {
     position: absolute;
