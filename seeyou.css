@@ -213,6 +213,7 @@
     background: #919A5C;
     background-image: url(./seeyou/seeyou_texture.png);
     background-size: cover;
+    background-blend-mode: multiply;
     border-radius: 20px;
     top:50%;
     left:50%;
