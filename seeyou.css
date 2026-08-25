@@ -211,6 +211,8 @@
     width:1700px;
     height:900px;
     background: #919A5C;
+    background-image: url(./seeyou/seeyou_texture.png);
+    background-size: cover;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
