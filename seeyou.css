@@ -233,12 +233,15 @@
     transition:opacity 0.3s ease, visibility 0s;
 }
 .modal-card p{
-    color: #444831;
+    color: #343626;
 }
 .modal-card svg {
     position: absolute;
     top:35px;
     right:35px;
+}
+.modal-card path {
+    stroke: #343626;
 }
 .modal-card div {
     display: flex;
