@@ -129,14 +129,18 @@
 }
 
 .link-buttom {
+    display: flex;
     width:267px;
     height:66px;
-    border-radius: 10;
+    border-radius: 10px;
     background: #F8EAF4;
     position: absolute;
     bottom: 80px;
     right: 80px;
+    justify-content: center;
+    align-items: center;
 }
 .link-buttom p {
     color:#C93AA1;
+    width:185px;
 }
