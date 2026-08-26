@@ -144,3 +144,9 @@
     color:#C93AA1;
     width:185px;
 }
+
+.color-plan div {
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 3px;
+}
