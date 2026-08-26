@@ -127,3 +127,16 @@
 .title p:nth-child(1) {
     font-size: 50px;
 }
+
+.link-buttom {
+    width:267px;
+    height:66px;
+    border-radius: 10;
+    background: #F8EAF4;
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+}
+.link-buttom p {
+    color:#C93AA1;
+}
