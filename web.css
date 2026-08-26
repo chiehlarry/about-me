@@ -96,7 +96,8 @@
     z-index: 9998;
     width:1700px;
     height:1000px;
-    background: #F8EAF4;
+    background: #C93AA1;
+    border-radius: 40px;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);

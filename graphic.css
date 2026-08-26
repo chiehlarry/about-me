@@ -97,6 +97,7 @@
     width:1700px;
     height:1000px;
     background: #ADC8C3;
+    border-radius:40px;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -113,6 +114,9 @@
     position: absolute;
     top:35px;
     right:35px;
+}
+.modal-card path {
+    stroke: #E9F5F3;
 }
 .modal-card .title {
     position: absolute;
