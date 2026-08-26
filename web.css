@@ -145,6 +145,12 @@
     width:185px;
 }
 
+.color-plan {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 530px;
+}
 .color-plan div {
     border-radius: 50%;
     border-color: #fff;
