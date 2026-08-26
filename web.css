@@ -152,6 +152,8 @@
     height: 530px;
 }
 .color-plan div {
+    width:44px;
+    height: 44px;
     border-radius: 50%;
     border-color: #fff;
     border-width: 3px;
