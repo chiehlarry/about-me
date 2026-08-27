@@ -154,11 +154,13 @@
     position: absolute;
     top:235px;
     left:793px;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap:39px
 }
 .color-plan div {
-    flex: 1;
-    aspect-ratio: 1;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     border: 3px solid #fff;
 }
