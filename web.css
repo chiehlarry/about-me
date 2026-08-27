@@ -130,7 +130,7 @@
 
 .link-button {
     display: flex;
-    width:267px;
+    width:280px;
     height:66px;
     border-radius: 10px;
     background: #F8EAF4;
@@ -156,7 +156,7 @@
     left:793px;
     justify-content: center;
     align-items: center;
-    gap:39px
+    gap:20px
 }
 .color-plan div {
     width: 44px;
