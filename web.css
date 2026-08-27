@@ -128,7 +128,7 @@
     font-size: 50px;
 }
 
-.link-buttom {
+.link-button {
     display: flex;
     width:267px;
     height:66px;
@@ -140,7 +140,7 @@
     justify-content: center;
     align-items: center;
 }
-.link-buttom p {
+.link-button p {
     color:#C93AA1;
     width:185px;
     white-space: no-wrap;
