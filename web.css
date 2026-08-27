@@ -110,7 +110,7 @@
     opacity: 1;
     transition:opacity 0.3s ease, visibility 0s;
 }
-.modal-card svg {
+.modal-card .close {
     position: absolute;
     top:35px;
     right:35px;
