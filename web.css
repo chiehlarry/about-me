@@ -143,7 +143,7 @@
 .link-buttom p {
     color:#C93AA1;
     width:185px;
-    white-space: nowrap;
+    white-space: no-wrap;
 }
 
 .color-plan {
@@ -151,12 +151,13 @@
     flex-direction: column;
     width: 50px;
     height: 530px;
+    position: absolute;
+    top:235px;
+    left:793px;
 }
 .color-plan div {
     width:44px;
     height: 44px;
     border-radius: 50%;
     stroke:3px #fff;
-    top:235px;
-    left:793px;
 }
