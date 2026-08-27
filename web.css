@@ -143,6 +143,7 @@
 .link-buttom p {
     color:#C93AA1;
     width:185px;
+    white-space: nowrap;
 }
 
 .color-plan {
