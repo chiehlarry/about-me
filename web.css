@@ -143,7 +143,7 @@
 .link-button p {
     color:#C93AA1;
     width:185px;
-    white-space: no-wrap;
+    white-space: nowrap;
 }
 
 .color-plan {
@@ -154,10 +154,11 @@
     position: absolute;
     top:235px;
     left:793px;
+    justify-items: center;
 }
 .color-plan div {
-    width:44px;
-    height: 44px;
+    flex: 1;
+    aspect-ratio: 1;
     border-radius: 50%;
     border: 3px solid #fff;
 }
