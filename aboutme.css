@@ -1,0 +1,32 @@
+/* ===== 側邊選單:對應改色 ===== */
+.menu {
+    stroke:#E3BC45;
+}
+.side-bar {
+  background:#E3BC45;
+}
+.side-bar div:hover p {
+    color:#E3BC45;
+}
+
+/* ===== me-border ===== */
+.me-frame {
+    position: relative;
+    width: 531px;
+    height:792px;
+}
+
+.me-img {
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.frame-svg {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
