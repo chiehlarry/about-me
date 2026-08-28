@@ -78,16 +78,16 @@
             </ul>
         </nav>
         <section class="content">
-            <img class="cover-img" src='./個人用/aboutme.png'>
-            <div class="background">
-                <svg xmlns="http://www.w3.org/2000/svg" width="613" height="573" viewBox="0 0 613 573" fill="none">
-                    <path d="M370.574 110.861C349.31 177.751 257.897 178.629 194.692 173.193C170.406 171.105 147.385 162.168 124.193 154.665C-36.0125 102.838 -36.5227 371.861 95.5891 323.669C335.434 236.18 297.27 462.722 383.702 544.248C470.135 625.775 753.839 519.367 526.162 381.794C252.901 216.677 561.032 266.64 559.798 97.911C558.563 -70.8184 403.018 8.79831 370.574 110.861Z" fill="#E3BC45"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="162" height="81" viewBox="0 0 162 81" fill="none">
-                    <path d="M111.373 77.833C79.5935 69.3105 38.5446 66.5965 6.3306 76.2231C2.17394 77.4652 -1.90256 71.7873 0.955081 68.5232C151.282 -103.186 213.83 105.31 111.373 77.833Z" fill="#E3BC45"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="174" height="86" viewBox="0 0 174 86" fill="none">
-                    <path d="M55.8597 82.6407C88.9567 74.1576 132.365 72.0145 167.347 82.831C171.564 84.135 175.644 78.1975 172.63 74.9727C-0.744793 -110.507 -50.8493 109.992 55.8597 82.6407Z" fill="#E3BC45"/>
+            <div class="me-frame">
+                <img class="cover-img" src='./個人用/aboutme.png'>
+                <svg class="frame-svg" width="531" height="792" viewBox="0 0 531 792">
+                    <path id="frame-path" d="M0,0 H531 V792 H0 Z" fill="none" stroke="#E3BC45" stroke-width="14"/>
+                    <text front-size="32" fill="#E3BC45" letter-spacing="7">
+                        <textPath href="#frame-path" startOffset="0%">
+                            CONTACT ME CONTACT ME CONTACT ME CONTACT ME
+                            <animate attributeName="startOffset" from="0%" to="100%" dur="8s" repeatCount="indefinite"/>
+                        </textPath>
+                    </text>
                 </svg>
             </div>
             <p class="name-kanji">呂　頼頡</p>
