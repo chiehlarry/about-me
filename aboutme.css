@@ -22,7 +22,7 @@
     left:50%;
     transform: translateX(-50%);
     z-index: 2;
-
+    width:500px;
 }
 .frame-svg {
     position: absolute;
@@ -33,7 +33,7 @@
 .contact {
     position:absolute;
     top:440px;
-    left:497px;
+    left:516px;
     background: #fff;
     font-weight: 900;
     font-size: 32px;
