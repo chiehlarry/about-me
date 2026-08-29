@@ -132,3 +132,15 @@
     width:650px;
     padding-top: 50px;
 }
+/* ===== seemore ===== */
+.seemore {
+    width: 230px;
+    height: 50px;
+    background: #E3BC45;
+    position: absolute;
+    top:965px;
+    left:1545px;
+}
+.seemore p{
+    color: #fff;
+}
