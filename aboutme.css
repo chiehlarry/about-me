@@ -149,6 +149,7 @@
     font-weight: 800;
     white-space: nowrap;
     line-height: 50px;
+    text-align: center;
 }
 
 .seemore:hover {
