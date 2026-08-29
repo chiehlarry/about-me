@@ -80,7 +80,7 @@
 .hover:hover ~ .contact p{
     color: #fff;
 }
-.content:has(.hover:hover) .hover-background {
+.canvas:has(.hover:hover) .hover-background {
     opacity: 1;
 }
 /* ===== layout ===== */
