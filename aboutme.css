@@ -13,7 +13,7 @@
 .me-frame {
     position: relative;
     width: 531px;
-    height:750px;
+    height:792px;
 }
 
 .me-img {
@@ -42,7 +42,7 @@
 .contact p{
     color:#E3BC45;
     white-space: nowrap;
-    transform: rotate(270deg);
+    writing-mode: vertical-lr;
 }
 /* ===== layout ===== */
 .content {
