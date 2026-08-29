@@ -44,7 +44,7 @@
     width: 670px;
     height: 375px;
     position:relative;
-    border-bottom: #E3BC45;
+    border-bottom:2px solid #E3BC45;
 }
 .me-name p {
     position: absolute;
@@ -65,4 +65,7 @@
 .name-eng {
     top:270px;
     left:150px;
+}
+.me-intro {
+    width:585px;
 }
