@@ -58,6 +58,7 @@
     top:100px;
     left:112px;
     font-size: 66px;
+    white-space: nowrap;
 }
 .name-kana {
     top:100px;
