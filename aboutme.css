@@ -38,7 +38,7 @@
     background: #fff;
     z-index: 2;
     padding-top:20px;
-    transition: ease 3s;
+    transition: ease 0.3s;
 }
 .contact p{
     color:#E3BC45;
