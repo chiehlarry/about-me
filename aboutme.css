@@ -20,8 +20,9 @@
     position: absolute;
     top:0;
     left:50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%),scale(75%);
     z-index: 1;
+
 }
 
 .frame-svg {
@@ -51,6 +52,7 @@
 }
 .name-kanji, .name-kana{
     writing-mode: vertical-lr ;
+    color:#E3BC45
 }
 .name-kanji{
     top:27px;
@@ -60,11 +62,12 @@
 .name-kana {
     top:38px;
     left:61px;
-    font-size: 32px;
+    font-size: 20px;
 }
 .name-eng {
     top:270px;
     left:150px;
+    font-size:50px;
 }
 .me-intro {
     width:585px;
