@@ -140,7 +140,13 @@
     position: absolute;
     top:965px;
     left:1545px;
+    padding: 10px;
+    align-items: center;
 }
 .seemore p{
     color: #fff;
+}
+
+.seemore:hover {
+    transform: scale(1.1);
 }
