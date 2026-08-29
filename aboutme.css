@@ -30,13 +30,13 @@
     z-index:1;
 }
 .contact {
-    height:300px;
+    height:280px;
     position:absolute;
     top:460px;
     left:500px;
     background: #fff;
     z-index: 2;
-    padding-top:10px;
+    padding-top:20px;
 }
 .contact p{
     color:#E3BC45;
@@ -91,6 +91,7 @@
 .me-text {
     display: flex;
     flex-direction: column;
+    z-index: 5;
 }
 .me-name {
     width: 670px;
