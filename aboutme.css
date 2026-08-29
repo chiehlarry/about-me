@@ -22,7 +22,6 @@
     left:50%;
     transform: translateX(-50%);
     z-index: 2;
-    width:500px;
 }
 .frame-svg {
     position: absolute;
