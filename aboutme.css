@@ -13,7 +13,7 @@
 .me-frame {
     position: relative;
     width: 531px;
-    height:792px;
+    height:750px;
 }
 
 .me-img {
@@ -35,12 +35,14 @@
     top:440px;
     left:497px;
     background: #fff;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 32px;
     z-index: 2;
 }
 .contact p{
     color:#E3BC45;
+    white-space: nowrap;
+    transform: rotate(270deg);
 }
 /* ===== layout ===== */
 .content {
