@@ -36,6 +36,7 @@
     left:500px;
     background: #fff;
     z-index: 2;
+    padding:10px;
 }
 .contact p{
     color:#E3BC45;
@@ -80,7 +81,7 @@
 .hover:hover .frame-svg path {
     stroke:#fff
 }
-.hover:hover .hover-background {
+.hover:hover .content:has(.hover-background) {
     opacity: 1;
 }
 
