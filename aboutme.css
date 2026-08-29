@@ -44,6 +44,27 @@
     white-space: nowrap;
     writing-mode: vertical-lr;
 }
+.frame-svg path {
+    stroke:#E3BC45
+}
+.hover {
+    width:300px;
+    height:700px;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.hover:hover .contact{
+    background: #E3BC45;
+}
+.hover:hover ~ .contact p{
+    color: #fff;
+}
+.hover:hover .frame-svg path {
+    stroke:#fff
+}
+
 /* ===== layout ===== */
 .content {
     display: flex;
@@ -85,7 +106,7 @@
 }
 .name-eng {
     top:300px;
-    left:230px;
+    left:200px;
     font-size:32px;
 }
 .me-intro {
