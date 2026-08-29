@@ -49,15 +49,16 @@
     stroke:#E3BC45
 }
 .hover-background {
-    position: absolute;
     opacity: 0;
     transition: ease 0.3s;
 }
 .hover-background svg:nth-child(1) {
+    position: absolute;
     top:56.17px;
     left:110.96px;
 }
 .hover-background svg:nth-child(2) {
+    position: absolute;
     top:334.7px;
     left:361px;
 }
@@ -78,13 +79,9 @@
 .hover:hover ~ .contact p{
     color: #fff;
 }
-.hover:hover .frame-svg path {
-    stroke:#fff
-}
-.hover:hover .content:has(.hover-background) {
+.content:has(.hover:hover) .hover-background {
     opacity: 1;
 }
-
 /* ===== layout ===== */
 .content {
     display: flex;
