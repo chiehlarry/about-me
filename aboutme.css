@@ -63,7 +63,7 @@
 .me-name p {
     position: absolute;
 }
-.name-kanji, .name-kana{
+.name-kanji, .name-kana01, .name-kana02{
     writing-mode: vertical-lr ;
     color:#E3BC45
 }
@@ -73,8 +73,13 @@
     font-size: 66px;
     white-space: nowrap;
 }
-.name-kana {
-    top:100px;
+.name-kana01 {
+    top:65px;
+    left:61px;
+    font-size: 20px;
+}
+.name-kana02 {
+    top:150px;
     left:61px;
     font-size: 20px;
 }
