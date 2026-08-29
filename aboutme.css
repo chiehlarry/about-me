@@ -52,11 +52,11 @@
     opacity: 0;
     transition: ease 0.3s;
 }
-.hover-background:nth-child(1) {
+.hover-background svg:nth-child(1) {
     top:56.17px;
     left:110.96px;
 }
-.hover-background:nth-child(2) {
+.hover-background svg:nth-child(2) {
     top:334.7px;
     left:361px;
 }
@@ -68,8 +68,10 @@
     top:0;
     left:50%;
     transform: translateX(-50%);
+    opacity: 0;
+    z-index: 3;
 }
-.hover:hover .contact{
+.hover:hover ~ .contact{
     background: #E3BC45;
 }
 .hover:hover ~ .contact p{
