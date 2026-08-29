@@ -21,15 +21,25 @@
     top:0;
     left:50%;
     transform: translateX(-50%);
-    z-index: 1;
+    z-index: 2;
 
 }
-
 .frame-svg {
     position: absolute;
     top:0;
     left:0;
-    z-index:2;
+    z-index:1;
+}
+.contact {
+    position:absolute;
+    top:440px;
+    left:497px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+.contact p{
+    color:#E3BC45;
 }
 /* ===== layout ===== */
 .content {
