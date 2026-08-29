@@ -32,8 +32,8 @@
 .contact {
     height:300px;
     position:absolute;
-    top:440px;
-    left:516px;
+    top:450px;
+    left:500px;
     background: #fff;
     z-index: 2;
 }
@@ -79,7 +79,7 @@
     font-size: 20px;
 }
 .name-kana02 {
-    top:250px;
+    top:200px;
     left:61px;
     font-size: 20px;
 }
