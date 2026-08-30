@@ -32,7 +32,7 @@ function startMainAnimation(){
         }, );
         
     }, 300);// 300 = 頁面載入後等 0.3 秒才開始執行動畫
-}
+})}
 
 const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
 const introSection = document.querySelector('.scroll-animation');
