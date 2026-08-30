@@ -11,8 +11,10 @@ function scaleCanvas() {
 window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
 // 自動載入動畫
-window.addEventListener('load', () => {
+function startMainAnimation(){
+    document.querySelector('scroll-finish').classList.add('reveal');
     setTimeout(() => {
+        setTimeout(() => {
         const paint = document.querySelector('.paint');
         paint.classList.add('fade-out');
         document.querySelector('.background-text').classList.add('fade-out');
@@ -29,8 +31,28 @@ window.addEventListener('load', () => {
             menubackground.removeEventListener('transitionend', handler);}
         }, );
         
-    }, 2000);// 2000 = 頁面載入後等 2 秒才開始執行動畫
-}); 
+    }, 300);// 300 = 頁面載入後等 0.3 秒才開始執行動畫
+    })
+}
+
+const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
+const introSection = document.querySelector('.scroll-animation');
+let offset = 0;
+let introFinished = false;
+
+introSection.addEventListener('wheel', (e) => {
+    if (introFinished) return;
+    e.preventDefault();
+    offset += e.deltaY;
+    const maxScroll = track.scrollWidth - introSection.clientWidth;
+    offset = Math.max(0, Math.min(offset, maxScroll));
+    track.style.transform = `translateX(-${offset}px)`;
+
+    if (offset >= maxScroll) {
+        introFinished = true;
+        startMainAnimation();
+    }
+}, { passive: false });
 
 //sidebar
 const sidebar = document.querySelector('.side-bar');
