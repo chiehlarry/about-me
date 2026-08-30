@@ -138,15 +138,15 @@ p {
     animation-timing-function: ease;
     animation-iteration-count: infinite;
 }
-.s01{top:1691px;left:1876px; animation-delay: 0.2s; animation-duration: 5s;}
-.s02{top:1500px;left:1850px; animation-delay: 0.5s; animation-duration: 9s;}
-.s03{top:1183px;left:1726px; animation-delay: 0.3s; animation-duration: 15s;}
-.s04{top:1559px;left:2151px; animation-delay: 0.7s; animation-duration: 5s;}
-.s05{top:1243px;left:1977px; animation-delay: 0.3s; animation-duration: 7s;}
-.s06{top:1080px;left:2005px; animation-delay: 0.1s; animation-duration: 15s;}
-.s07{top:1216px;left:2308px; animation-delay: 0.4s; animation-duration: 9s;}
-.s08{top:1243px;left:2570px; animation-delay: 0.1s; animation-duration: 7s;}
-.s09{top:1080px;left:2570px; animation-delay: 0.5s; animation-duration: 10s;}
+.s01{top:1691px;left:1876px; animation-duration: 5s;}
+.s02{top:1500px;left:1850px; animation-duration: 9s;}
+.s03{top:1183px;left:1726px; animation-duration: 15s;}
+.s04{top:1559px;left:2151px; animation-duration: 5s;}
+.s05{top:1243px;left:1977px; animation-duration: 7s;}
+.s06{top:1080px;left:2005px; animation-duration: 15s;}
+.s07{top:1216px;left:2308px; animation-duration: 9s;}
+.s08{top:1243px;left:2570px; animation-duration: 7s;}
+.s09{top:1080px;left:2570px; animation-duration: 10s;}
 
 /* ===== 背景paint ===== */
 .paint {
