@@ -87,6 +87,23 @@ p {
 .side-bar div:hover img {
     opacity:1;
 }
+/* ===== scroll ===== */
+.scroll-animation {
+    position: relative;
+}
+.greeting {
+    font-family: helvetica;
+    font-weight: 900;
+    font-size: 250px;
+    position: absolute;
+    color:#E5DFCC;
+}
+.scroll-animation div, .scroll-animation img {
+    position: absolute;
+}
+.scroll-animation div {
+    background:#E5DFCC
+}
 /* ===== 背景paint ===== */
 .paint {
     position: fixed;
