@@ -92,6 +92,7 @@ p {
     position: relative;
     width: 1920px;
     height:1080px;
+    transition: 0.3s ease;
 }
 .text-card p {
     font-size: 26px;
@@ -535,7 +536,7 @@ p {
 .scroll-finish {
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.15s ease;
 }
 .scroll-finish.reveal {
     opacity: 1;

@@ -15,10 +15,10 @@ scaleCanvas();
 const introSection = document.querySelector('.scroll-animation');
 
 function startMainAnimation(){
-    document.querySelector('.scroll-finish').classList.add('reveal');
+    introSection.classList.add('disappear');
+
     setTimeout(()=>{
-        introSection.classList.add('disappear')
-    },500);
+        document.querySelector('.scroll-finish').classList.add('reveal');        
     setTimeout(() => {
         const paint = document.querySelector('.paint');
         paint.classList.add('fade-out');
@@ -36,7 +36,8 @@ function startMainAnimation(){
             menubackground.removeEventListener('transitionend', handler);}
         }, );
         
-    }, 3000);// 0.3s
+    }, 300);
+},800)// 0.3s
 }
 
 const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
