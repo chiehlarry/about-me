@@ -134,7 +134,10 @@ p {
 .scroll-background svg{
     position: absolute;
     transform: translate(-1920px,-1080px);
-    animation: scroll-line-in 3s ease infinite;
+    animation-name: scroll-line-in;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 .s01{top:1691px;left:1876px; animation-delay: 0.2s;}
 .s02{top:1500px;left:1850px; animation-delay: 0.5s;}
