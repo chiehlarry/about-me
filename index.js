@@ -11,12 +11,14 @@ function scaleCanvas() {
 window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
 // 自動載入動畫
+
+const introSection = document.querySelector('.scroll-animation');
+
 function startMainAnimation(){
     document.querySelector('.scroll-finish').classList.add('reveal');
     setTimeout(() => {
-        const introSection = document.querySelector('.scroll-animation');
         introSection.classList.add('disappear')
-                
+
         const paint = document.querySelector('.paint');
         paint.classList.add('fade-out');
         document.querySelector('.background-text').classList.add('fade-out');
