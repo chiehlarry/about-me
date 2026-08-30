@@ -37,7 +37,7 @@ function startMainAnimation(){
         }, );
         
     }, 2000);
-},800)// 0.3s
+},300)// 0.3s
 }
 
 const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
