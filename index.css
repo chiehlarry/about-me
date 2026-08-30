@@ -127,13 +127,13 @@ p {
 }
 
 @keyframes scroll-line-in {
-    from{transform:translate(-1920px,-1080px)}
+    from{transform:translate(-110%,-110%)}
     to{transform: translate(0,0);}
 }
 
 .scroll-background svg{
     position: absolute;
-    transform: translate(-1920px,-1080px);
+    transform: translate(-110%,-110%);
     animation-name: scroll-line-in;
     animation-duration: 3s;
     animation-timing-function: ease;
