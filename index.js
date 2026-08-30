@@ -36,7 +36,7 @@ function startMainAnimation(){
             menubackground.removeEventListener('transitionend', handler);}
         }, );
         
-    }, 300);
+    }, 2000);
 },800)// 0.3s
 }
 
