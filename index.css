@@ -127,8 +127,10 @@ p {
 }
 
 @keyframes scroll-line-in {
-    from{transform:translate(-1750px,-1500px)}
-    to{transform: translate(0,0);}
+    0%{transform:translate(-1750px,-1500px)}
+    30%{transform: translate(0,0);}
+    80%{transform: translate(0,0);}
+    100%{transform:translate(-1750px,-1500px)}
 }
 
 .scroll-background svg{
