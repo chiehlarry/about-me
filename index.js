@@ -49,7 +49,7 @@ introSection.addEventListener('wheel', (e) => {
     if (introFinished) return;
     e.preventDefault();
     offset += e.deltaY;
-    const maxScroll = Math.max(trackfront,scrollWidth ,trackback.scrollWidth) - introSection.clientWidth;
+    const maxScroll = Math.max(trackfront.scrollWidth ,trackback.scrollWidth) - introSection.clientWidth;
     offset = Math.max(0, Math.min(offset, maxScroll));
     trackfront.style.transform = `translateX(-${offset}px)`;
     trackback.style.transform = `translateX(-${offset}px)`;
