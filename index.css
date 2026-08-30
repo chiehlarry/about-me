@@ -93,16 +93,16 @@ p {
     width: 1920px;
     height:1080px;
 }
+.scroll-animation div p {
+    font-size: 26px;
+    font-weight: 600;
+}
 .greeting {
     font-family: helvetica;
     font-weight: 900;
     font-size: 250px;
     position: absolute;
     color:#E5DFCC;
-}
-.scroll-animation div p {
-    font-size: 26px;
-    font-weight: 600;
 }
 .scroll-animation div, .scroll-animation img {
     position: absolute;
