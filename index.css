@@ -133,7 +133,6 @@ p {
 
 .scroll-background svg{
     position: absolute;
-    transform: translate(-110%,-110%);
     animation-name: scroll-line-in;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
