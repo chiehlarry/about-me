@@ -100,11 +100,17 @@ p {
     position: absolute;
     color:#E5DFCC;
 }
+.scroll-animation div p {
+    font-size: 26px;
+    font-weight: 600;
+}
 .scroll-animation div, .scroll-animation img {
     position: absolute;
 }
 .scroll-animation div {
-    background:#E5DFCC
+    background:#E5DFCC;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .scroll-animation.disappear {
     opacity: 0;
