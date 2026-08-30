@@ -14,7 +14,9 @@ scaleCanvas();
 function startMainAnimation(){
     document.querySelector('.scroll-finish').classList.add('reveal');
     setTimeout(() => {
-        setTimeout(() => {
+        const introSection = document.querySelector('.scroll-animation');
+        introSection.classList.add('disappear')
+                
         const paint = document.querySelector('.paint');
         paint.classList.add('fade-out');
         document.querySelector('.background-text').classList.add('fade-out');
@@ -31,11 +33,10 @@ function startMainAnimation(){
             menubackground.removeEventListener('transitionend', handler);}
         }, );
         
-    }, 300);// 300 = 頁面載入後等 0.3 秒才開始執行動畫
-})}
+    }, 300);// 0.3s
+}
 
 const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
-const introSection = document.querySelector('.scroll-animation');
 let offset = 0;
 let introFinished = false;
 

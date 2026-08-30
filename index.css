@@ -106,6 +106,9 @@ p {
 .scroll-animation div {
     background:#E5DFCC
 }
+.scroll-animation.disappear {
+    opacity: 0;
+}
 /* ===== 背景paint ===== */
 .paint {
     position: fixed;
