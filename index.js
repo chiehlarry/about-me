@@ -12,7 +12,7 @@ window.addEventListener('resize', scaleCanvas);
 scaleCanvas();
 // 自動載入動畫
 function startMainAnimation(){
-    document.querySelector('scroll-finish').classList.add('reveal');
+    document.querySelector('.scroll-finish').classList.add('reveal');
     setTimeout(() => {
         setTimeout(() => {
         const paint = document.querySelector('.paint');
@@ -32,7 +32,6 @@ function startMainAnimation(){
         }, );
         
     }, 300);// 300 = 頁面載入後等 0.3 秒才開始執行動畫
-    })
 }
 
 const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
