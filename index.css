@@ -93,7 +93,7 @@ p {
     width: 1920px;
     height:1080px;
 }
-.scroll-animation div p {
+.text-card p {
     font-size: 26px;
     font-weight: 600;
     white-space: nowrap;
