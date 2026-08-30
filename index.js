@@ -16,9 +16,10 @@ const introSection = document.querySelector('.scroll-animation');
 
 function startMainAnimation(){
     document.querySelector('.scroll-finish').classList.add('reveal');
-    setTimeout(() => {
+    setTimeout(()=>{
         introSection.classList.add('disappear')
-
+    },500);
+    setTimeout(() => {
         const paint = document.querySelector('.paint');
         paint.classList.add('fade-out');
         document.querySelector('.background-text').classList.add('fade-out');
