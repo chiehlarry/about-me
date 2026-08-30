@@ -125,24 +125,26 @@ p {
 .scroll-animation.disappear {
     opacity: 0;
 }
-.scroll-background svg{
-    position: absolute;
-    transform: translate(-1920px,-1080px);
-}
-.s01{top:1691px;left:1876px;}
-.s02{top:1500px;left:1850px;}
-.s03{top:1183px;left:1726px;}
-.s04{top:1559px;left:2151px;}
-.s05{top:1243px;left:1977px;}
-.s06{top:1080px;left:2005px;}
-.s07{top:1216px;left:2308px;}
-.s08{top:1243px;left:2570px;}
-.s09{top:1080px;left:2570px;}
 
 @keyframes scroll-line-in {
     from{transform:translate(-1920px,-1080px)}
     to{transform: translate(0,0);}
 }
+
+.scroll-background svg{
+    position: absolute;
+    transform: translate(-1920px,-1080px);
+    animation: scroll-line-in 1.5s ease infinite;
+}
+.s01{top:1691px;left:1876px; animation-delay: 0.2s;}
+.s02{top:1500px;left:1850px; animation-delay: 0.5s;}
+.s03{top:1183px;left:1726px; animation-delay: 0.3s;}
+.s04{top:1559px;left:2151px; animation-delay: 0.7s;}
+.s05{top:1243px;left:1977px; animation-delay: 0.3s;}
+.s06{top:1080px;left:2005px; animation-delay: 0.1s;}
+.s07{top:1216px;left:2308px; animation-delay: 0.4s;}
+.s08{top:1243px;left:2570px; animation-delay: 0.1s;}
+.s09{top:1080px;left:2570px; animation-delay: 0.5s;}
 
 /* ===== 背景paint ===== */
 .paint {
