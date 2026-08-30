@@ -107,6 +107,13 @@ p {
     color:#E5DFCC;
     white-space: nowrap;
 }
+.horizontal-track-front {
+    z-index: 501;
+}
+.horizontal-track-back {
+    z-index: 499;
+}
+
 .scroll-animation div, .scroll-animation img {
     position: absolute;
 }

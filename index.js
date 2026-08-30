@@ -40,7 +40,8 @@ function startMainAnimation(){
 },300)// 0.3s
 }
 
-const track = document.querySelector('.horizontal-track'); // 之後要把水平排列的東西包進這個容器
+const trackback = document.querySelector('.horizontal-track-back'); 
+const trackfront = document.querySelector('.horizontal-track-front')// 之後要把水平排列的東西包進這個容器
 let offset = 0;
 let introFinished = false;
 
@@ -48,9 +49,10 @@ introSection.addEventListener('wheel', (e) => {
     if (introFinished) return;
     e.preventDefault();
     offset += e.deltaY;
-    const maxScroll = track.scrollWidth - introSection.clientWidth;
+    const maxScroll = Math.max(trackfront,scrollWidth ,trackback.scrollWidth) - introSection.clientWidth;
     offset = Math.max(0, Math.min(offset, maxScroll));
-    track.style.transform = `translateX(-${offset}px)`;
+    trackfront.style.transform = `translateX(-${offset}px)`;
+    trackback.style.transform = `translateX(-${offset}px)`;
 
     if (offset >= maxScroll) {
         introFinished = true;
