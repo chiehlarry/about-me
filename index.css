@@ -127,7 +127,7 @@ p {
 }
 
 @keyframes scroll-line-in {
-    from{transform:translate(-110%,-110%)}
+    from{transform:translate(-1750px,-1500px)}
     to{transform: translate(0,0);}
 }
 
