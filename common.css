@@ -29,8 +29,7 @@ p {
 /* ===== loder ===== */
 
 .page-loader {
-    width: 1920px;
-    height: 1080px;
+    inset: 0;
     position:fixed;
     z-index:9999;
     top:0;
