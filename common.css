@@ -26,6 +26,42 @@ p {
     display: inline-block; padding-bottom:5px ;padding-left: 150px;
     margin-bottom: 15px;margin-top: 100px;
 }
+/* ===== loder ===== */
+
+.page-loader {
+    width: 1920px;
+    height: 1080px;
+}
+.page-loader p{
+    color: #fff;
+    font-size: 66px;
+    text-align: center;
+    align-items: center;
+}
+.load , .trans{
+    position: absolute;
+}
+.t01 { top: 349px; left: 1971px;}
+.t02 { top: 662px; left: 2214px;}
+.t03 { top: 296px; left: 1674px;}
+.t04 { top: 412px; left: 1584px;}
+.t05 { top: 272px; left: 1213px;}
+.t06 { top: 725px; left: 1770px;}
+.t07 { top: 556px; left: 1338px;}
+.t08 { top: 716px; left: 1379px;}
+.t09 { top: 666px; left: 1133px;}
+.t10 { top: 656px; left: 960px;}
+.t11 { top: 947px; left: 1355px;}
+.t12 { top: 947px; left: 1070px;}
+
+.tb01 { top: -213px; left: 1546px;}
+.tb02 { top: -125px; left: 1308px;}
+.tb03 { top: -120px; left: 764px;}
+.tb04 { top: -79px; left: 209px;}
+.tb05 { top: 88px; left: -151px;}
+.tb06 { top: 688px; left: 0px;}
+.tb07 { top: 719px; left: -478px;}
+
 /* ===== 側邊選單 ===== */
 .side-bar {
     position: fixed;
