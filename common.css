@@ -69,6 +69,7 @@ p {
 .page-loader.hide {
     opacity: 0;
     z-index:0;
+    pointer-events: none;
 }
 
 .load svg, .trans svg{
