@@ -6,9 +6,15 @@
     width: 1920px;
     height: 1080px;
     transform-origin: top left;
+}
+canvas::before{
+    content: '';
+    position: absolute;
+    inset: 0;
     background-image: url(./個人用/texture.png);
     background-size: cover;
-    background-blend-mode: multiply;
+    opacity: 0.2;
+    z-index: -1;
 }
 .menu {
     position: fixed;
