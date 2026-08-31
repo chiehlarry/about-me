@@ -31,6 +31,8 @@ p {
 .page-loader {
     width: 1920px;
     height: 1080px;
+    position:fixed;
+    z-index:9999;
 }
 .page-loader p{
     color: #fff;
