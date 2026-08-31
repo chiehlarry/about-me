@@ -41,10 +41,12 @@ document.querySelectorAll('.modal-card .close').forEach(btn => {
     });
 });
 
-document.querySelector('.modal-mask').addEventListener('click', () => {
+const modalMask = document.querySelector('.madal-mask')
+if (modalMask){
+modalMask.addEventListener('click', () => {
     document.querySelectorAll('.modal-card.open').forEach(c => c.classList.remove('open'));
     document.querySelector('.modal-mask').classList.remove('open');
-});
+});}
 
 //load
 window.addEventListener('load', () => {
