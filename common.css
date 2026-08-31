@@ -42,7 +42,7 @@ p {
     text-align: center;
     align-items: center;
 }
-.load , .trans{
+.load svg, .trans svg{
     position: absolute;
 }
 .t01 { top: 349px; left: 1971px;}
