@@ -6,7 +6,7 @@
     width: 1920px;
     height: 1080px;
     transform-origin: top left;
-    background-color: #faf8f3;
+    background-color: #f9f8f5;
 }
 .canvas::after {
     content: '';
@@ -15,7 +15,7 @@
     pointer-events: none;   /* 不要擋住底下元素的點擊 */
     z-index: 300;          /* 蓋在最上層，但比選單(9999)低 */
     filter: url(#grain);
-    opacity: 0.04;          /* 顆粒感的濃淡，數字愈小愈不明顯 */
+    opacity: 0.3;          /* 顆粒感的濃淡，數字愈小愈不明顯 */
     mix-blend-mode: multiply;
 }
 .menu {
@@ -115,7 +115,7 @@ p {
     font-weight: 900;
     font-size: 250px;
     position: absolute;
-    color:#E5DFCC;
+    color:#E3BC45;
     white-space: nowrap;
 }
 .horizontal-track-front {
@@ -129,7 +129,7 @@ p {
     position: absolute;
 }
 .scroll-animation div {
-    background:#E5DFCC;
+    background:#E3BC45;
     padding-left: 20px;
     padding-right: 20px;
 }
