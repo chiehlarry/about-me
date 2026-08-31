@@ -39,24 +39,49 @@ function startMainAnimation(){
     }, 2000);
 },300)// 0.3s
 }
-
+// 滾動動畫
 const trackback = document.querySelector('.horizontal-track-back'); 
 const trackfront = document.querySelector('.horizontal-track-front')// 之後要把水平排列的東西包進這個容器
 let offset = 0;
+let velocity = 0;
 let introFinished = false;
+let rafId = null;
 
-introSection.addEventListener('wheel', (e) => {
+function animateScroll() {
     if (introFinished) return;
-    e.preventDefault();
-    offset += e.deltaY;
-    const maxScroll = Math.max(trackfront.scrollWidth ,trackback.scrollWidth) - introSection.clientWidth;
+
+    offset += velocity;
+    velocity *= 0.9;   // 摩擦力：每一格畫面，速度變成原本的 90%，逐漸衰減到 0
+
+    const maxScroll = Math.max(trackfront.scrollWidth, trackback.scrollWidth) - introSection.clientWidth;
     offset = Math.max(0, Math.min(offset, maxScroll));
+
     trackfront.style.transform = `translateX(-${offset}px)`;
     trackback.style.transform = `translateX(-${offset}px)`;
 
     if (offset >= maxScroll) {
         introFinished = true;
         startMainAnimation();
+        rafId = null;
+        return;
+    }
+
+    if (Math.abs(velocity) > 0.5) {
+        rafId = requestAnimationFrame(animateScroll);   // 速度還夠快，下一格畫面繼續跑
+    } else {
+        velocity = 0;
+        rafId = null;   // 速度已經小到可以忽略，直接停下來，把迴圈關掉
+    }
+}
+
+introSection.addEventListener('wheel', (e) => {
+    if (introFinished) return;
+    e.preventDefault();
+
+    velocity += e.deltaY * 0.5;   // 滾輪的量，加到「速度」上面，不是直接加到位置上
+
+    if (!rafId) {
+        rafId = requestAnimationFrame(animateScroll);   // 如果動畫迴圈還沒在跑，啟動它
     }
 }, { passive: false });
 
