@@ -49,14 +49,23 @@ modalMask.addEventListener('click', () => {
 });}
 
 //load
+const loadStartTime = Date.now();
+
 window.addEventListener('load', () => {
     const loader = document.querySelector('.page-loader');
     if (!loader) return;
-    if (typeof customLoaderReveal === 'function') {
+
+    const minDisplay = 2000;
+    const elapsed = Date.now() - loadStartTime;
+    const remaining = Math.max(0, minDisplay - elapsed);
+
+    setTimeout (() => {
+        if (typeof customLoaderReveal === 'function') {
         customLoaderReveal(loader);
     } else {
         loader.classList.add('hide');
-    }
+        }
+    },remaining);
 });
 
 function customLoaderReveal(loader) {
