@@ -53,7 +53,7 @@ function animateScroll() {
     offset += velocity;
     velocity *= 0.9;   // 摩擦力：每一格畫面，速度變成原本的 90%，逐漸衰減到 0
 
-    const extraScroll = 600
+    const extraScroll = 1200
     const maxScroll = Math.max(trackfront.scrollWidth, trackback.scrollWidth) - introSection.clientWidth + extraScroll;
     offset = Math.max(0, Math.min(offset, maxScroll));
 
