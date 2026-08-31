@@ -6,6 +6,9 @@
     width: 1920px;
     height: 1080px;
     transform-origin: top left;
+    background-image: url(./個人用/texture.png);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 .menu {
     position: fixed;
