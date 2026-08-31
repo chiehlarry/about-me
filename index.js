@@ -95,3 +95,25 @@ menuillustration.addEventListener('mouseout' , () => menubg.classList.remove('hi
 const menugraphic = document.querySelector('.menu-graphic');
 menugraphic.addEventListener('mouseover', () => menubg.classList.add('highlight07'))
 menugraphic.addEventListener('mouseout' , () => menubg.classList.remove('highlight07'))
+
+
+// 跳過動畫
+const skipIntro = new URLSearchParams(location.search).has('skipIntro');
+
+if (skipIntro) {
+    introFinished = true;   // 防止之後滑鼠滾輪還能誤觸發水平捲動邏輯
+
+    document.querySelector('.canvas').classList.add('no-transition'); // 暫時關掉所有轉場，避免瞬間跳過去時還播放動畫
+
+    introSection.classList.add('disappear');
+    document.querySelector('.scroll-finish').classList.add('reveal');
+    document.querySelector('.paint').classList.add('fade-out');
+    document.querySelector('.background-text').classList.add('fade-out');
+    document.querySelector('.menu-background').classList.add('in-view');
+    document.querySelector('.menu-option').classList.add('in-view');
+    document.querySelector('.menu-guide').classList.add('fade-in');
+
+    requestAnimationFrame(() => {
+        document.querySelector('.canvas').classList.remove('no-transition'); // 一畫完就把轉場恢復，之後 hover 效果才會正常
+    });
+}

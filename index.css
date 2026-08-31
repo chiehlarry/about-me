@@ -611,3 +611,9 @@ p {
 .menu-guide.fade-in {
     opacity: 1;
 }
+
+/* ===== 跳過動畫 ===== */
+.no-transition, .no-transition * {
+    transition: none !important;
+    animation: none !important;
+}
