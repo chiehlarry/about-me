@@ -65,3 +65,4 @@ function customLoaderReveal(loader) {
     lastBar.addEventListener('animationend', () => {
         loader.classList.add('hide');   // 蓋滿之後，整個淡出
     }, { once: true });
+}
