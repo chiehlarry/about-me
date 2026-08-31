@@ -36,12 +36,13 @@ p {
     top:0;
     left:0;
     transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .page-loader p{
     color: #fff;
     font-size: 32px;
-    text-align: center;
-    align-items: center;
 }
 
 @keyframes thin-line-in {
