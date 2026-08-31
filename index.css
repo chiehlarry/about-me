@@ -6,6 +6,17 @@
     width: 1920px;
     height: 1080px;
     transform-origin: top left;
+    background-color: #faf8f3;
+}
+.canvas::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;   /* 不要擋住底下元素的點擊 */
+    z-index: 300;          /* 蓋在最上層，但比選單(9999)低 */
+    filter: url(#grain);
+    opacity: 0.04;          /* 顆粒感的濃淡，數字愈小愈不明顯 */
+    mix-blend-mode: multiply;
 }
 .menu {
     position: fixed;

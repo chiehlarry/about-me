@@ -12,6 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <svg style="position:absolute; width:0; height:0;">
+        <filter id="grain">
+            <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+            <feColorMatrix type="saturate" values="0"/>
+        </filter>
+    </svg>
     <div class="canvas">
         <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
             <path d="M6 24H42M6 12H42M6 36H42" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
