@@ -43,6 +43,7 @@ p {
 .page-loader p{
     color: #fff;
     font-size: 32px;
+    font-weight: 400;
 }
 
 @keyframes thin-line-in {
