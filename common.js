@@ -45,3 +45,23 @@ document.querySelector('.modal-mask').addEventListener('click', () => {
     document.querySelectorAll('.modal-card.open').forEach(c => c.classList.remove('open'));
     document.querySelector('.modal-mask').classList.remove('open');
 });
+
+//load
+window.addEventListener('load', () => {
+    const loader = document.querySelector('.page-loader');
+    if (!loader) return;
+    if (typeof customLoaderReveal === 'function') {
+        customLoaderReveal(loader);
+    } else {
+        loader.classList.add('hide');
+    }
+});
+
+function customLoaderReveal(loader) {
+    loader.classList.add('wipe');   // 觸發 7 條粗線飛入蓋滿
+
+    // 用最後一條粗線的動畫播完當作「蓋滿完成」的訊號
+    const lastBar = loader.querySelectorAll('.trans svg')[6]; // tb07
+    lastBar.addEventListener('animationend', () => {
+        loader.classList.add('hide');   // 蓋滿之後，整個淡出
+    }, { once: true });

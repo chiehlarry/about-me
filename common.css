@@ -42,6 +42,29 @@ p {
     text-align: center;
     align-items: center;
 }
+
+@keyframes thin-line-in {
+    0%{ opacity: 0.4; transform: translate(0,0);}
+    50%{ opacity: 1; transform: translate(20px,20px);}
+    100%{ opacity: 0.4; transform: translate(0,0);}
+}
+
+.load svg {
+    animation: thin-line-in 1.2s ease-in-out infinite;
+}
+
+@keyframes loadfinish {
+    from{transform: translateX(-100%) translateY(-100%); opacity: 1;}
+    to{transform: translateX(0) translateY(0);opacity: 1;}
+}
+.trans svg {
+    opacity: 0;
+    animation: loadfinish 0.6s ease-out forwards;
+}
+.page-loader.wipe {
+    animation: loadfinish 0.6s ease-out forwards;
+}
+
 .load svg, .trans svg{
     position: absolute;
 }
@@ -65,6 +88,7 @@ p {
 .tb05 { top: -409px;  left: -414px;}
 .tb06 { top: -197px;  left: -626px;}
 .tb07 { top: 15px;    left: -838px;}
+
 
 /* ===== 側邊選單 ===== */
 .side-bar {
