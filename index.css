@@ -544,22 +544,22 @@ p {
 .main-menu:has(.menu-aboutme-fake:hover) .menu-aboutme-title span,
 .main-menu:has(.menu-aboutme-fake:hover) .menu-aboutme-text {
     opacity:1;
-    transition-delay: 1s;
+    transition-delay: 0.6s;
 }
 .main-menu:has(.menu-aboutme-fake:hover) .menu-background {
     opacity:0;
-    transition-delay: 1s;
+    transition-delay: 0.6s;
 }
 .main-menu:has(.menu-aboutme-fake:hover) .menu-option img {
     opacity:0;
     pointer-events:none;
-    transition-delay: 1s;
+    transition-delay: 0.6s;
 }
 .canvas:has(.menu-aboutme-fake:hover) .paint.fade-out {
     opacity:1;
     transform:translate(-50%,-50%) scale(1);
     transition:opacity 0.1s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-    transition-delay: 1s;
+    transition-delay: 0.6s;
 }
 
 /* ===== guide ===== */
