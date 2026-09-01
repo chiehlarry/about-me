@@ -157,7 +157,7 @@ p {
 }
 .lang-btn {
     background:none; 
-    border:none; padding:10px; margin:0; 
+    border:none; padding-left:10px; padding-right: 10px; margin:0; 
     font:inherit; 
     cursor:pointer; 
     appearance:none; 
