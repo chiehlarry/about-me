@@ -131,13 +131,13 @@ p {
     gap:29px;
 }
 
-.side-bar div {
+.side-item {
     width: 328px;
     height: 66px;
     transition: 0.3s ease;
 }
 
-.side-bar div:hover {
+.side-item:hover {
     width:374px;
     height:146px;
     padding:10px;
@@ -145,7 +145,7 @@ p {
     transform:translate(0,-10px)
 }
 
-.side-bar div:hover img {
+.side-item:hover img {
     opacity:1;
 }
 
@@ -163,7 +163,7 @@ p {
     cursor:pointer; 
     appearance:none; 
     -webkit-appearance:none;
-    font-size: 12px;
+    font-size: 16px;
     color:#fff;
     opacity: 0.5;
 }
