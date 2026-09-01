@@ -156,10 +156,15 @@ p {
     display: flex;
     gap:5px;
 }
-.language p {
+.lang-btn {
     font-size: 12px;
-    color:#fff
+    color:#fff;
+    opacity: 0.5;
 }
+.lang-btn.active {
+    opacity: 1;
+}
+
 /* ===== scroll img ===== */
 .scroll-zoom-frame {
     overflow: hidden;
