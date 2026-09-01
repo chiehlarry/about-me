@@ -165,6 +165,10 @@ p {
     opacity: 1;
 }
 
+.lang-btn + .lang-btn {
+    border-left: 1px solid #fff;
+}
+
 /* ===== scroll img ===== */
 .scroll-zoom-frame {
     overflow: hidden;
