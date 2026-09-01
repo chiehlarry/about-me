@@ -80,28 +80,18 @@ function customLoaderReveal(loader) {
 
 //lang-switch
 const langButtons = document.querySelectorAll('.lang-btn');
-
-langButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-        const lang = btn.dataset.lang;
-
-        setLanguage(lang);  
-
-        langButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-    });
-});
-
 const savedLang = localStorage.getItem('lang') || 'ja';
-setLanguage(savedLang);
-langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === savedLang));
+
+function activateLangButton(lang) {
+    langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+}
+
+activateLangButton(savedLang);
 
 langButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         const lang = btn.dataset.lang;
-        localStorage.setItem('lang', lang);   // 記住這次選的語言
-        setLanguage(lang);
-        langButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
+        localStorage.setItem('lang', lang);
+        activateLangButton(lang);
     });
 });
