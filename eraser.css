@@ -1,3 +1,7 @@
+/* ===== loder ===== */
+.page-loader {
+   background: #888888;
+}
 /* ===== 側邊選單:對應改色 ===== */
 .menu {
     stroke:#888888;
