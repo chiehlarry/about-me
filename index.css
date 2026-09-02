@@ -77,13 +77,13 @@ p {
     gap:29px;
 }
 
-.side-bar div {
+.side-item {
     width: 328px;
     height: 66px;
     transition: 0.3s ease;
 }
 
-.side-bar div:hover {
+.side-item:hover {
     width:374px;
     height:146px;
     padding:10px;
@@ -91,11 +91,11 @@ p {
     transform:translate(0,-10px)
 }
 
-.side-bar div:hover p {
+.side-item:hover p {
     color:#E3BC45;
 }
 
-.side-bar div:hover img {
+.side-item:hover img {
     opacity:1;
 }
 /* ===== scroll ===== */
