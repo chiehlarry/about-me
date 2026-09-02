@@ -26,9 +26,7 @@ function setLanguage(lang) {
         const key = el.dataset.i18n;
         translations.ja = translations.ja || {};
         if (!translations.ja[key]) translations.ja[key] = el.innerHTML;
-        if (translations[lang]?.[key]) {
-            el.innerHTML = translations[lang][key];   // 用 innerHTML，不用 textContent，因為內容裡有 <br>
-        }
+        el.innerHTML = translations[lang]?.[key] ?? ''; 
     });
 }
 
