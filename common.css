@@ -6,6 +6,7 @@
     width: 1920px;
     transform-origin: top left;
     overflow: hidden;
+    background-color: #fffefa;
 }
 .menu {
     position: fixed;
