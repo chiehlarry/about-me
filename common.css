@@ -151,7 +151,7 @@ p {
 
 .language {
     position:absolute;
-    top: 40px;
+    bottom: 40px;
     left:60px;
     display: flex;
 }
