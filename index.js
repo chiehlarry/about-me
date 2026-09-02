@@ -143,3 +143,22 @@ if (skipIntro) {
         document.querySelector('.canvas').classList.remove('no-transition'); // 一畫完就把轉場恢復，之後 hover 效果才會正常
     });
 }
+
+//lang-switch
+const langButtons = document.querySelectorAll('.lang-btn');
+const savedLang = localStorage.getItem('lang') || 'ja';
+
+function activateLangButton(lang) {
+    langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    document.documentElement.lang = lang; 
+}
+
+activateLangButton(savedLang);
+
+langButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        localStorage.setItem('lang', lang);
+        activateLangButton(lang);
+    });
+});

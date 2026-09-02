@@ -84,6 +84,7 @@ const savedLang = localStorage.getItem('lang') || 'ja';
 
 function activateLangButton(lang) {
     langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    document.documentElement.lang = lang; 
 }
 
 activateLangButton(savedLang);
