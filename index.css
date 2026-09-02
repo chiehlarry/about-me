@@ -101,7 +101,7 @@ p {
 .language {
     position:absolute;
     bottom: 40px;
-    right:60px;
+    left:60px;
     display: flex;
 }
 .lang-btn {
