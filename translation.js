@@ -1,12 +1,14 @@
-// about me
 const translations = {
-    ja: {
-        "me-intro": "台湾生まれ。<br><br>大学卒業から絵画教室に通い始めた。<br>2024からグラフィックデザイナーとして活動開始。<br><br>HTML、CSS、FIGMAなどWEB開発を独学で学んで、WEBデザインにもいくつ携わって来ました。<br>これからも積み重ねてきた経験も生かしてWEBデザインとフロント開発に広げていこうと思います。"
-    },
     zh: {
+         // side
+        "side-aboutme":"關於LAI的事情",
+        // about me
         "me-intro": "台灣出生。<br><br>大學畢業後開始到畫室接受繪畫訓練。<br>2024年開始以平面設計師身分活動。<br><br>自行鑽研HTMLm、CSS與FIGMA等網頁開發工具，也曾經手過幾個網頁設計專案。<br>接下來也想繼續活用累積至今的經驗，擴展網頁設計與前端開發相關工作的視野。"
     },
     en: {
+         // side
+        "side-aboutme":"THINGS ABOUT LAI",
+        // about me
         "me-intro": "Born in Taiwan.<br><br>Started attending painting classes after graduating from university..."
     }
 };
@@ -16,6 +18,8 @@ const translations = {
 function setLanguage(lang) {
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.dataset.i18n;
+        translations.ja = translations.ja || {};
+        if (!translations.ja[key]) translations.ja[key] = el.innerHTML;
         if (translations[lang]?.[key]) {
             el.innerHTML = translations[lang][key];   // 用 innerHTML，不用 textContent，因為內容裡有 <br>
         }
