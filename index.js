@@ -1,15 +1,9 @@
-function scaleCanvas() {
+function updateZoom() {
     const canvas = document.querySelector('.canvas');
-    const scale = Math.min(
-        window.innerWidth / 1920,
-        window.innerHeight / 1080
-    );
-    const offsetX = (window.innerWidth - 1920 * scale) / 2;
-    const offsetY = (window.innerHeight - 1080 * scale) / 2;
-    canvas.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+    canvas.style.zoom = window.innerWidth / 1920;
 }
-window.addEventListener('resize', scaleCanvas);
-scaleCanvas();
+window.addEventListener('resize', updateZoom);
+updateZoom();
 // 自動載入動畫
 
 const introSection = document.querySelector('.scroll-animation');
