@@ -100,7 +100,7 @@ p {
 .side-bar {
     position: fixed;
     width:492px;
-    height:100vh;
+    height:1080px;
     right:-492px;
     z-index:9997;
     visibility: hidden;
