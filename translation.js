@@ -13,7 +13,7 @@ const translations = {
         "side-aboutme":"",
         "side-eraser":"",
         "side-toki":"",
-        "side-graphic":,
+        "side-graphic":"",
         // about me
         "me-intro": "Born in Taiwan.<br><br>Started attending painting classes after graduating from university..."
     }
