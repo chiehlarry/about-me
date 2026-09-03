@@ -7,7 +7,7 @@ const translations = {
         "side-eraser":"腦內橡皮擦",
         "side-toki":"偷去",
         "side-seeyou":"大新街 LAST DANCE",
-        "side-web":"網頁作品"
+        "side-web":"網頁作品",
         "side-graphic":"平面作品",
         //index
         "index01":"原來是這樣！",
