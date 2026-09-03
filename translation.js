@@ -13,7 +13,7 @@ const translations = {
         "side-aboutme":"Things about LAI",
         "side-slime":"Tranditional Taiwanese snack renewal",
         "side-ice":"Onepage adult educational site",
-        "side-eraser":"Font design & 3D-artwork",
+        "side-eraser":"Typography & 3D-artwork",
         "side-toki":"The path I walked pass",
         "side-seeyou":"Project & visual design",
         "side-web":"When I meet programming",
