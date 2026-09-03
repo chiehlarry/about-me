@@ -170,6 +170,7 @@ const translations = {
         "menu-graphic01":"平面作品",
         "menu-graphic02":"自由に、自分らしく、<br/>思い切り振る舞う糸",
         "menu-aboutme":"點擊LAI來查看更多關於LAI的資訊！",
+        "menu-guide":"點擊圖片就可以查看更多內容喔！"
     },
     en: {
          // side
@@ -201,6 +202,7 @@ const translations = {
         "menu-graphic01":"GRAPHIC WORKS",
         "menu-graphic02":"Lines about split liberally and work as my-style",
         "menu-aboutme":"Click LAI picture to check more information about LAI!",
+        "menu-guide":"Click the pictures and check the project works"
     }
 };
 
