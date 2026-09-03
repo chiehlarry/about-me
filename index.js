@@ -1,50 +1,3 @@
-//translation
-
-const translations = {
-    zh: {
-        "index01":"原來是這樣！",
-        "index02":"這個超讚！",
-        "index03-1":"還想要",
-        "index03-2":"再做得更好！",
-        "menu-slime01":"史萊運轉",
-        "menu-slime02":"自分の愛する物を守り、<br/>熱情が溢れる糸",
-        "menu-ice01":"破冰溝溝GO",
-        "menu-ice02":"過去も自分の糧になり、<br/>人のための糸",
-        "menu-eraser01":"腦內橡皮擦",
-        "menu-eraser02":"不安と彷徨いを乗り越えて、<br/>自分を探す糸",
-        "menu-toki01":"偷去",
-        "menu-toki02":"千里の道も一歩から始まる、<br/>一歩ずつ積み重ねの糸",
-        "menu-seeyou01":"大新街 LAST DANCE",
-        "menu-seeyou02":"アージュドールに踊り、<br>祝福を捧ぐ糸",
-        "menu-web01":"網頁作品",
-        "menu-web02":"もっと語りたくて、<br/>思いと力を込める糸",
-        "menu-graphic01":"平面作品",
-        "menu-graphic02":"自由に、自分らしく、<br/>思い切り振る舞う糸",
-        "menu-aboutme":"點擊LAI來查看更多關於LAI的資訊！",
-    },
-    en: {
-        "index01":"Seems it's how it comes",
-        "index02":"It's awesome!",
-        "index03-1":"Eager to",
-        "index03-2":"done everything better",
-        "menu-slime01":"SLIME OF FORTUNE",
-        "menu-slime02":"Lines about defending for<br>my passion but also love ",
-        "menu-ice01":"BREAK THE ICEBERG",
-        "menu-ice02":"Lines about drawing strength<br>from pass and experience",
-        "menu-eraser01":"ERASER IN THE HEAD",
-        "menu-eraser02":"Lines about anxiety and<br>concern come to knock",
-        "menu-toki01":"TOKI",
-        "menu-toki02":"Lines about biginning<br>first step for a grand journey",
-        "menu-seeyou01":"FINAL HOMECOMING",
-        "menu-seeyou02":"Lines about dancing and<br>wishing for the golden age",
-        "menu-web01":"WEB WORKS",
-        "menu-web02":"Lines about tell story,<br>variety and willing",
-        "menu-graphic01":"GRAPHIC WORKS",
-        "menu-graphic02":"Lines about split liberally and work as my-style",
-        "menu-aboutme":"Click LAI picture to check more information about LAI!",
-    }
-};
-
 function updateZoom() {
     const canvas = document.querySelector('.canvas');
     canvas.style.zoom = window.innerWidth / 1920;
@@ -184,3 +137,49 @@ if (skipIntro) {
         document.querySelector('.canvas').classList.remove('no-transition'); // 一畫完就把轉場恢復，之後 hover 效果才會正常
     });
 }
+
+//translation
+const translations = {
+    zh: {
+        "index01":"原來是這樣！",
+        "index02":"這個超讚！",
+        "index03-1":"還想要",
+        "index03-2":"再做得更好！",
+        "menu-slime01":"史萊運轉",
+        "menu-slime02":"自分の愛する物を守り、<br/>熱情が溢れる糸",
+        "menu-ice01":"破冰溝溝GO",
+        "menu-ice02":"過去も自分の糧になり、<br/>人のための糸",
+        "menu-eraser01":"腦內橡皮擦",
+        "menu-eraser02":"不安と彷徨いを乗り越えて、<br/>自分を探す糸",
+        "menu-toki01":"偷去",
+        "menu-toki02":"千里の道も一歩から始まる、<br/>一歩ずつ積み重ねの糸",
+        "menu-seeyou01":"大新街 LAST DANCE",
+        "menu-seeyou02":"アージュドールに踊り、<br>祝福を捧ぐ糸",
+        "menu-web01":"網頁作品",
+        "menu-web02":"もっと語りたくて、<br/>思いと力を込める糸",
+        "menu-graphic01":"平面作品",
+        "menu-graphic02":"自由に、自分らしく、<br/>思い切り振る舞う糸",
+        "menu-aboutme":"點擊LAI來查看更多關於LAI的資訊！",
+    },
+    en: {
+        "index01":"Seems it's how it comes",
+        "index02":"It's awesome!",
+        "index03-1":"Eager to",
+        "index03-2":"done everything better",
+        "menu-slime01":"SLIME OF FORTUNE",
+        "menu-slime02":"Lines about defending for<br>my passion but also love ",
+        "menu-ice01":"BREAK THE ICEBERG",
+        "menu-ice02":"Lines about drawing strength<br>from pass and experience",
+        "menu-eraser01":"ERASER IN THE HEAD",
+        "menu-eraser02":"Lines about anxiety and<br>concern come to knock",
+        "menu-toki01":"TOKI",
+        "menu-toki02":"Lines about biginning<br>first step for a grand journey",
+        "menu-seeyou01":"FINAL HOMECOMING",
+        "menu-seeyou02":"Lines about dancing and<br>wishing for the golden age",
+        "menu-web01":"WEB WORKS",
+        "menu-web02":"Lines about tell story,<br>variety and willing",
+        "menu-graphic01":"GRAPHIC WORKS",
+        "menu-graphic02":"Lines about split liberally and work as my-style",
+        "menu-aboutme":"Click LAI picture to check more information about LAI!",
+    }
+};
