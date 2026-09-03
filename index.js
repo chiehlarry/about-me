@@ -188,7 +188,7 @@ const translations = {
         "index03-1":"Eager to",
         "index03-2":"done everything better",
         "menu-slime01":"SLIME OF FORTUNE",
-        "menu-slime02":"Lines about defending for<br>my passion but also love ",
+        "menu-slime02":"Lines about defending for<br>my passion but also love",
         "menu-ice01":"BREAK THE ICEBERG",
         "menu-ice02":"Lines about drawing strength<br>from pass and experience",
         "menu-eraser01":"ERASER IN THE HEAD",
