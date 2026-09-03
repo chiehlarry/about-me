@@ -141,6 +141,16 @@ if (skipIntro) {
 //translation
 const translations = {
     zh: {
+         // side
+        "side-aboutme":"關於LAI的事情",
+        "side-slime":"史萊運轉",
+        "side-ice":"破冰溝溝GO",
+        "side-eraser":"腦內橡皮擦",
+        "side-toki":"偷去",
+        "side-seeyou":"大新街 LAST DANCE",
+        "side-web":"網頁作品",
+        "side-graphic":"平面作品",
+        //
         "index01":"原來是這樣！",
         "index02":"這個超讚！",
         "index03-1":"還想要",
@@ -162,6 +172,16 @@ const translations = {
         "menu-aboutme":"點擊LAI來查看更多關於LAI的資訊！",
     },
     en: {
+         // side
+        "side-aboutme":"Things about LAI",
+        "side-slime":"Tranditional Taiwanese snack renewal",
+        "side-ice":"Onepage adult educational site",
+        "side-eraser":"Typography & 3D-artwork",
+        "side-toki":"The path I walked pass",
+        "side-seeyou":"Project & visual design",
+        "side-web":"When I meet programming",
+        "side-graphic":"Some graphic works here",
+        //
         "index01":"Seems it's how it comes",
         "index02":"It's awesome!",
         "index03-1":"Eager to",
@@ -183,3 +203,32 @@ const translations = {
         "menu-aboutme":"Click LAI picture to check more information about LAI!",
     }
 };
+
+//lang-switch-system
+function setLanguage(lang) {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        translations.ja = translations.ja || {};
+        if (!translations.ja[key]) translations.ja[key] = el.innerHTML;
+        el.innerHTML = translations[lang]?.[key] ?? '';   // 用 innerHTML，不用 textContent，因為內容裡有 <br>
+    });
+}
+
+const langButtons = document.querySelectorAll('.lang-btn');
+const savedLang = localStorage.getItem('lang') || 'ja';
+
+function activateLangButton(lang) {
+    langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    document.documentElement.lang = lang;
+    setLanguage(lang);
+}
+
+activateLangButton(savedLang);
+
+langButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        localStorage.setItem('lang', lang);
+        activateLangButton(lang);
+    });
+});
