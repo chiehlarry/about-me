@@ -5,6 +5,35 @@ function updateZoom() {
 window.addEventListener('resize', updateZoom);
 updateZoom();
 
+//lang-switch-system
+function setLanguage(lang) {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        translations.ja = translations.ja || {};
+        if (!translations.ja[key]) translations.ja[key] = el.innerHTML;
+        el.innerHTML = translations[lang]?.[key] ?? '';   // 用 innerHTML，不用 textContent，因為內容裡有 <br>
+    });
+}
+
+const langButtons = document.querySelectorAll('.lang-btn');
+const savedLang = localStorage.getItem('lang') || 'ja';
+
+function activateLangButton(lang) {
+    langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    document.documentElement.lang = lang;
+    setLanguage(lang);
+}
+
+activateLangButton(savedLang);
+
+langButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        localStorage.setItem('lang', lang);
+        activateLangButton(lang);
+    });
+});
+
 //sidebar
 const sidebar = document.querySelector('.side-bar');
 const menubutton = document.querySelector('.menu');
@@ -77,32 +106,3 @@ function customLoaderReveal(loader) {
         loader.classList.add('hide');   // 蓋滿之後，整個淡出
     }, { once: true });
 }
-
-//lang-switch-system
-function setLanguage(lang) {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.dataset.i18n;
-        translations.ja = translations.ja || {};
-        if (!translations.ja[key]) translations.ja[key] = el.innerHTML;
-        el.innerHTML = translations[lang]?.[key] ?? '';   // 用 innerHTML，不用 textContent，因為內容裡有 <br>
-    });
-}
-
-const langButtons = document.querySelectorAll('.lang-btn');
-const savedLang = localStorage.getItem('lang') || 'ja';
-
-function activateLangButton(lang) {
-    langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
-    document.documentElement.lang = lang;
-    setLanguage(lang);
-}
-
-activateLangButton(savedLang);
-
-langButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-        const lang = btn.dataset.lang;
-        localStorage.setItem('lang', lang);
-        activateLangButton(lang);
-    });
-});
