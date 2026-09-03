@@ -66,3 +66,32 @@ const translations = {
         "me-intro": "Born in Taiwan.<br><br>Started attending painting classes after graduating from university.<br>Working as a GraphicDesigner since 2024.<br><br>I'm also learning some frontend engineer skills like HTML, CSS and FIGMA by myself<br>and expecting to use the skills and experiences I have to expend my career in WEB Design and Frontend engineering."
     }
 };
+
+//lang-switch-system
+function setLanguage(lang) {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        translations.ja = translations.ja || {};
+        if (!translations.ja[key]) translations.ja[key] = el.innerHTML;
+        el.innerHTML = translations[lang]?.[key] ?? '';   // 用 innerHTML，不用 textContent，因為內容裡有 <br>
+    });
+}
+
+const langButtons = document.querySelectorAll('.lang-btn');
+const savedLang = localStorage.getItem('lang') || 'ja';
+
+function activateLangButton(lang) {
+    langButtons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    document.documentElement.lang = lang;
+    setLanguage(lang);
+}
+
+activateLangButton(savedLang);
+
+langButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        localStorage.setItem('lang', lang);
+        activateLangButton(lang);
+    });
+});
