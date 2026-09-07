@@ -50,11 +50,11 @@ const translations = {
         "element02-1":"To soften the rigid mechanical aesthetic, small squares and circles were added as decorative elements. For example, circular forms are used in the structure of the “X.”",
         "element03":'無數次<span style="font-size: 16px;">/Countless',
         "element03-1":"Complex strokes were simplified and reconstructed to create cleaner letterforms. Stroke spacing was also adjusted to maintain consistent visual balance.",
-        "structure01":"Three-Dimensional Typography",
+        "structure01":"3D Typography",
         "structure02":"The typography is arranged at three different heights, casting varied shadows onto the white foam board behind it. Folded paper structures create the height differences while preserving the original letterforms.",
         "structure03":"Top Layer",
         "structure04":"Middle Layer",
         "structure05":"Bottom Layer",
-        "structure06":"Physical Prototype",
+        "structure06":"done",
     }
 };
