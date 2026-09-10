@@ -101,7 +101,7 @@ const translations = {
         "side-web":"When I meet programming",
         "side-graphic":"Some graphic works here",
         //
-        "load": "Lines about dancing and<br>wishing for the golden age",
+        "load": "Lines about dancing and wishing for the golden age",
         "cover01":"Project Design / Event Visual",
         "intro01":"I have a friend who loves inviting people over.<br><br>Movies, dinners, cooking together—so many memories were made in this place called Daxin Street. Before my friend moved away and this irreplaceable place disappeared from our everyday lives, we decided to celebrate there one last time.<br><br>This became the beginning of Daxin Street LAST DANCE.<br>Inspired by ancient murals, the characters, colors, and weathered textures were designed as traces left behind for the distant future—as if people from another era could discover what once happened here.",
         "intro02":"Pre-event notice (left) and check-in poster used at the venue (above).<br><br>Both follow the main visual style, using aged and raw textures to create a mysterious atmosphere.<br><br>At check-in, guests could choose an icon, extend it with a brush, and leave a message for this place.",
