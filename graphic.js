@@ -60,7 +60,7 @@ const translations = {
         "works02-1-1":"There's no more alcohol, no more hope, but plum wine",
         "works02-2":"LOGO Design / 2025",
         "works02-3":"The similar pronunciations of “plum wine” (梅酒), “no alcohol” (沒酒), and “no hope” (沒救) inspired the event’s playful name.<br><br>Centered on “drinks” and “festivity,” the design uses a neon-inspired style to capture the lively and welcoming atmosphere of making plum wine together.",
-        "works02-4":"Initial concept: Inspired by branded bottle labels, the design uses expressive brush lettering and dynamic typography to create a lively visual identity.",
+        "works02-4":"Initial concept: Inspired by bottle labels, brush lettering and dynamic typography create a lively feel.",
         "works03-1":"Would you like to come over disco and cill",
         "works03-2":"Project Design / 2024",
         "works03-3":"It all started with a disco ball: “Why not throw a disco party?” Growing up in the 2000s, we never experienced the era of neon-lit dance halls and their vibrant nightlife firsthand.<br>Inspired by the Japanese drama “Extremely Inappropriate!,” I developed a retro disco-inspired visual direction for the party.<br><br>Each participant received a unique prop card inspired by their personality, along with a teaser video designed around the event’s visual identity.",
