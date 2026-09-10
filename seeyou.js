@@ -108,7 +108,7 @@ const translations = {
         "intro03":"The teaser video follows the same visual concept, bringing joyful memories from this place back to life through photographs.<br><br>It ends by introducing the event’s key feature—the cards. Shifting colors and passing characters become part of the mythology of this space.",
         "card01":"Each guest receives three personalized cards.<br><br>Built around the idea that this place became special through memories created together, every guest is portrayed as a deity who once lived upon this land. Their experiences and struggles become myths engraved into its murals and passed on to the future.<br><br>The cards follow three stages—“Beginning,” “Pursuit,” and “Journey”—while their reverse sides correspond to “Flourishing,” “Collapse,” and “Ending.” Together, they form each person’s story within the world of the event.<br><br>Each guest also receives a personal card holder. Once all three cards are inserted, it becomes a small display stand for keeping their own mythology close.",
         "card02":"Card Holder · Front",
-        "card03":"Insert the cards to create a mini display stand!",
+        "card03":"You can create a mini display stand!",
         "card04":'<span style="font-size: 25px;">肇始</span> / Beginning',
         "card05":'<span style="font-size: 25px;">追逐</span> / Pursuit',
         "card06":'<span style="font-size: 25px;">旅程</span> / Journey',
